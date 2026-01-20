@@ -33,7 +33,7 @@ DeltaMemory achieves **89% accuracy** on LoCoMo-10, outperforming all existing m
 | Temporal reasoning | ✅ Event timeline | ❌ No time awareness |
 | Multi-hop inference | ✅ Graph traversal | ❌ Vector similarity only |
 
-## 📊 Detailed Results
+## Detailed Results
 
 **10 conversations, 1540 questions evaluated**
 
@@ -59,7 +59,7 @@ DeltaMemory achieves **89% accuracy** on LoCoMo-10, outperforming all existing m
 | conv-43 | 85% | 178 |
 | conv-47 | 83% | 150 |
 
-## 🔧 Configuration
+## Configuration
 
 | Component | Model |
 |-----------|-------|
@@ -68,7 +68,7 @@ DeltaMemory achieves **89% accuracy** on LoCoMo-10, outperforming all existing m
 | LLM Judge | GPT-4.1 |
 | Recall Limit | 50 memories |
 
-## 🚀 Run the Benchmark
+## Run the Benchmark
 
 ```bash
 # Install
@@ -83,7 +83,7 @@ npm run ingest
 npm run evaluate
 ```
 
-## 📁 Output
+## Output
 
 Results saved to `./results/`:
 - `locomo_conversation_N.json` - Per-conversation Q&A with reasoning
