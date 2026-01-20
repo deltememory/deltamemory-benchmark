@@ -1,0 +1,73 @@
+{
+  "timestamp": "2026-01-20T14:42:35.032Z",
+  "model": "gpt-4.1",
+  "summary": {
+    "conversations": 10,
+    "questions": 1540,
+    "correct": 1367,
+    "accuracy": 0.8906514878541791,
+    "accuracy_percentage": 89.06514878541792
+  },
+  "per_conversation": [
+    {
+      "conversation_id": "conv-26",
+      "total": 152,
+      "correct": 139,
+      "accuracy_percentage": 91.44736842105263
+    },
+    {
+      "conversation_id": "conv-30",
+      "total": 81,
+      "correct": 75,
+      "accuracy_percentage": 92.5925925925926
+    },
+    {
+      "conversation_id": "conv-41",
+      "total": 152,
+      "correct": 142,
+      "accuracy_percentage": 93.42105263157895
+    },
+    {
+      "conversation_id": "conv-42",
+      "total": 199,
+      "correct": 173,
+      "accuracy_percentage": 86.93467336683418
+    },
+    {
+      "conversation_id": "conv-43",
+      "total": 178,
+      "correct": 153,
+      "accuracy_percentage": 85.95505617977528
+    },
+    {
+      "conversation_id": "conv-44",
+      "total": 123,
+      "correct": 111,
+      "accuracy_percentage": 90.2439024390244
+    },
+    {
+      "conversation_id": "conv-47",
+      "total": 150,
+      "correct": 125,
+      "accuracy_percentage": 83.33333333333334
+    },
+    {
+      "conversation_id": "conv-48",
+      "total": 191,
+      "correct": 170,
+      "accuracy_percentage": 89.00523560209425
+    },
+    {
+      "conversation_id": "conv-49",
+      "total": 156,
+      "correct": 140,
+      "accuracy_percentage": 89.74358974358975
+    },
+    {
+      "conversation_id": "conv-50",
+      "total": 158,
+      "correct": 139,
+      "accuracy_percentage": 87.9746835443038
+    }
+  ]
+}

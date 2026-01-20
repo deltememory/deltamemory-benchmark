@@ -1,0 +1,20 @@
+{
+  "name": "deltamemory-locomo-benchmark",
+  "version": "1.0.0",
+  "description": "LoCoMo benchmark for DeltaMemory",
+  "type": "module",
+  "scripts": {
+    "ingest": "npx tsx src/ingest.ts",
+    "evaluate": "npx tsx src/evaluate.ts",
+    "download": "mkdir -p data && curl -o data/locomo10.json https://raw.githubusercontent.com/snap-research/locomo/main/data/locomo10.json"
+  },
+  "dependencies": {
+    "deltamemory": "^0.4.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}

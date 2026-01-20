@@ -1,0 +1,2169 @@
+{
+  "conversation_id": "conv-41",
+  "total": 152,
+  "evaluated_count": 152,
+  "correct_count": 142,
+  "accuracy_percentage": 93.42105263157895,
+  "by_type": {
+    "temporal_reasoning": {
+      "total": 27,
+      "evaluated_count": 27,
+      "correct_count": 25,
+      "accuracy_percentage": 92.5925925925926,
+      "responses": [
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "Who did Maria have dinner with on May 3, 2023?",
+          "expected_answer": "her mother",
+          "ai_response": "On May 3, 2023, Maria had dinner with her mom.",
+          "response_time": 2.903,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer states that Maria had dinner with her mom on May 3, 2023, which matches the gold answer's 'her mother' and the date.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Maria donate her car?",
+          "expected_answer": "21 December 2022",
+          "ai_response": "Maria donated her old car to a homeless shelter on December 21, 2022.",
+          "response_time": 2.959,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer provides the same date as the gold answer and correctly identifies when Maria donated her car, despite including extra details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did John join the online support group?",
+          "expected_answer": "The week before 1 January 2023",
+          "ai_response": "John joined a service-focused online group (the online support group) on December 25, 2022.",
+          "response_time": 3.13,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer specifies December 25, 2022, which is the week before January 1, 2023, matching the gold answer's timeframe.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Maria go to the beach?",
+          "expected_answer": "December 2022",
+          "ai_response": "Maria went to the beach on several occasions:\n\n1. December 2, 2022 – Maria took a photo at the beach and appreciated life's small moments while watching the sunset.\n2. May 4, 2023 – Maria shared an image of a beach with footprints in the sand and a blue sky.\n3. June 16, 2023 – Maria shared an image of a person walking on the beach with a surfboard and another image of a beach sunset showing a sunset over water with a bird flying in the distance.\n\nThese are the specific dates and instances when Maria went to the beach, based on the provided context.",
+          "response_time": 3.274,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes December 2, 2022, which matches the gold answer's December 2022, and provides additional relevant details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Maria meet Jean?",
+          "expected_answer": "February 24, 2023",
+          "ai_response": "Maria met a woman named Jean while volunteering on February 24, 2023.",
+          "response_time": 2.828,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer specifies that Maria met Jean on February 24, 2023, which matches the gold answer's date.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Maria's grandmother pass away?",
+          "expected_answer": "The week before 6 March 2023",
+          "ai_response": "Maria's grandmother passed away on February 27, 2023.",
+          "response_time": 2.684,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer specifies February 27, 2023, which is the week before March 6, 2023, matching the gold answer's timeframe.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did John get his degree?",
+          "expected_answer": "The week before 2 April 2023",
+          "ai_response": "John finished his degree before July 2023. Maria congratulated John on finishing his degree in a conversation after July 5, 2023, and John shared a photo of his diploma. The exact date of completion is not specified, but it was before July 2023.",
+          "response_time": 3.279,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that John finished his degree before July 2023, which includes the week before 2 April 2023, thus matching the timeframe of the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did John take a road trip to the Pacific Northwest?",
+          "expected_answer": "2022",
+          "ai_response": "John took a road trip to the Pacific Northwest before or on April 10, 2023. This is supported by the event: \"John explored the coast in the Pacific Northwest before or on 10 April 2023.\"",
+          "response_time": 2.943,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies that the road trip occurred before or on April 10, 2023, which includes the year 2022, thus matching the gold answer's timeframe.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did John go to a convention with colleagues?",
+          "expected_answer": "March 2023",
+          "ai_response": "John went to a convention with colleagues on March 19, 2023.",
+          "response_time": 3.153,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer specifies March 19, 2023, which is a more detailed date within March 2023, matching the gold answer's timeframe.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did John start boot camp with his family?",
+          "expected_answer": "April.2023",
+          "ai_response": "John started attending boot camps with his family on April 4, 2023.",
+          "response_time": 2.656,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer specifies April 4, 2023, which matches the gold answer's 'April.2023' and provides a more precise date.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did John have a party with veterans?",
+          "expected_answer": "The Friday before 20 May 2023",
+          "ai_response": "John hosted a small party and invited veterans to share their stories on May 20, 2023.",
+          "response_time": 2.796,
+          "evaluation": {
+            "is_correct": false,
+            "reasoning": "The generated answer says the party was on May 20, 2023, while the gold answer specifies it was the Friday before May 20, 2023, which is a different date.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did John get his dog Max?",
+          "expected_answer": "In 2013",
+          "ai_response": "Based on all the provided context, there is no specific date mentioned for when John got his dog Max. However, it is stated that Max was an important part of John's family for 10 years and that they had to say goodbye to Max before June 3, 2023. This suggests that John got Max around 2013 (approximately 10 years before Max passed away in 2023). No exact adoption or acquisition date is given in the conversation or user profile.",
+          "response_time": 3.291,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly infers that John got Max around 2013, which matches the gold answer, even though it provides additional context and reasoning.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Maria join a gym?",
+          "expected_answer": "The week before 16 June 2023",
+          "ai_response": "Maria joined a gym on June 9, 2023.",
+          "response_time": 2.61,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "June 9, 2023 is the week before June 16, 2023, so the generated answer matches the gold answer's timeframe.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Maria get in a car accident?",
+          "expected_answer": "July 2, 2023",
+          "ai_response": "Maria was involved in a car accident before July 3, 2023. The accident happened when a car ran a red light and hit Maria and others, but thankfully everyone was okay. This is confirmed by Maria mentioning the incident and sharing related images on July 2 and July 3, 2023.",
+          "response_time": 3.641,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies that Maria's car accident occurred before July 3, 2023, and references July 2 and July 3, 2023, which matches the gold answer's date of July 2, 2023.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When was John's old area hit with a flood?",
+          "expected_answer": "The week before 7 July 2023",
+          "ai_response": "John's old area was hit with a nasty flood on June 30, 2023.",
+          "response_time": 2.972,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer specifies June 30, 2023, which is the week before July 7, 2023, matching the gold answer's timeframe.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Maria go hiking with her church friends?",
+          "expected_answer": "The weekend before 22 July 2023",
+          "ai_response": "Maria went hiking with her church friends on July 15, 2023.",
+          "response_time": 2.852,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer specifies July 15, 2023, which is the weekend before July 22, 2023, matching the gold answer's time frame.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did John have his first firefighter call-out?",
+          "expected_answer": "The sunday before 3` July 2023",
+          "ai_response": "John had his first firefighter call-out on July 30, 2023.",
+          "response_time": 3.23,
+          "evaluation": {
+            "is_correct": false,
+            "reasoning": "The generated answer gives a specific date (July 30, 2023) that does not match the gold answer's timeframe (the Sunday before July 3, 2023), so the information is incorrect.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Maria start volunteering at the homeless shelter?",
+          "expected_answer": "Around August 2022",
+          "ai_response": "Maria started volunteering at the homeless shelter around August 2022. She was inspired to begin after witnessing a family struggling on the streets and reached out to the shelter to offer her help.",
+          "response_time": 2.815,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that Maria started volunteering at the homeless shelter around August 2022, matching the gold answer's key information.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did John help renovate his hometown community center?",
+          "expected_answer": "2022",
+          "ai_response": "John helped renovate a rundown community center located back home in 2022. The specific date given is January 1, 2022.",
+          "response_time": 3.522,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer specifies that John helped renovate the community center in 2022, which matches the gold answer, and extra details do not detract from correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Maria take up community work with her church friends?",
+          "expected_answer": "August 4, 2023",
+          "ai_response": "Maria took up community work with her friends from church on August 4, 2023.",
+          "response_time": 2.832,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer provides the same date and context as the gold answer, indicating Maria took up community work with her church friends on August 4, 2023.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Maria receive a medal from the homeless shelter?",
+          "expected_answer": "The week before 9 August 2023",
+          "ai_response": "Maria received a medal from the homeless shelter on August 2, 2023.",
+          "response_time": 2.615,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "August 2, 2023 is the week before August 9, 2023, so the generated answer matches the gold answer's timeframe.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did John participate in a 5K charity run?",
+          "expected_answer": "first weekend of August 2023",
+          "ai_response": "John participated in a 5K charity run in 2023. Specifically, he set up and participated in a 5K charity run in his neighborhood to help veterans and their families, raising funds through the event. While the exact date is not explicitly stated, the event is referenced in the context of 2023, and Maria participated in a separate 5K charity run for a homeless shelter on March 31, 2023. John's 5K charity run is distinct and took place in 2023, but the precise date is not provided in the available context.",
+          "response_time": 4.042,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies that John participated in a 5K charity run in 2023, which matches the year in the gold answer, even though it does not specify 'first weekend of August'; it is still on the same topic and provides relevant context.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Maria get Coco?",
+          "expected_answer": "Two weeks before 11 August 2023",
+          "ai_response": "Maria got her puppy Coco on July 28, 2023.",
+          "response_time": 2.877,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "July 28, 2023 is exactly two weeks before August 11, 2023, so the generated answer matches the gold answer's timeframe.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did John go on a camping trip with Max?",
+          "expected_answer": "The summer of 2022",
+          "ai_response": "John went on a camping trip with Max in the summer of 2022. Specifically, one event is dated as August 1, 2022, for a camping trip with Max. During this trip, John and Max hiked, swam, and made great memories together. There is also a photo showing John and Max sitting by a campfire during this camping trip.",
+          "response_time": 3.157,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that John went on a camping trip with Max in the summer of 2022, matching the gold answer, and provides additional but relevant details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Maria adopt Shadow?",
+          "expected_answer": "The week before 13 August 2023",
+          "ai_response": "Maria adopted Shadow, her puppy, from a shelter on August 6, 2023.",
+          "response_time": 2.727,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer specifies August 6, 2023, which is the week before August 13, 2023, matching the timeframe in the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "How many weeks passed between Maria adopting Coco and Shadow?",
+          "expected_answer": "two weeks",
+          "ai_response": "Maria adopted Coco on July 28, 2023.  \nMaria adopted Shadow on August 6, 2023.\n\nTo calculate the number of weeks between these two dates:\n\n- July 28, 2023 (Coco adopted)\n- August 6, 2023 (Shadow adopted)\n\nFrom July 28 to August 6 is 9 days.\n\n9 days = 1 week and 2 days.\n\n**Answer:**  \n1 week and 2 days passed between Maria adopting Coco and Shadow.",
+          "response_time": 3.115,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly calculates the time between the two adoption dates and provides the equivalent in weeks and days, which matches the gold answer's topic and timeframe.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "What did John attend with his colleagues in March 2023?",
+          "expected_answer": "a tech-for-good convention",
+          "ai_response": "John attended a convention with his colleagues in March 2023. Specifically, they went together on March 19, 2023. The convention focused on using tech for good in the community, and John found it inspiring to connect with like-minded people and swap ideas.",
+          "response_time": 3.03,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer states that John attended a convention focused on tech-for-good with his colleagues in March 2023, which matches the gold answer's topic and timing.",
+            "error": null
+          }
+        }
+      ]
+    },
+    "single_hop": {
+      "total": 31,
+      "evaluated_count": 31,
+      "correct_count": 30,
+      "accuracy_percentage": 96.7741935483871,
+      "responses": [
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What martial arts has John done?",
+          "expected_answer": "Kickboxing, Taekwondo",
+          "ai_response": "John has done kickboxing (mentioned in 2022 and again in 2023) and taekwondo (mentioned in 2023).",
+          "response_time": 2.986,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies both kickboxing and taekwondo, matching the gold answer, with additional detail about when they were mentioned.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What type of volunteering have John and Maria both done?",
+          "expected_answer": "Volunteering at a homeless shelter",
+          "ai_response": "John and Maria have both volunteered at a local homeless shelter. Specific details include:\n\n- They volunteered together at a local homeless shelter in 2022 (referenced by Maria: \"Remember when we volunteered together last year? It was such a fulfilling experience.\" and the event timeline).\n- Maria has continued volunteering at the homeless shelter throughout 2022 and 2023, including serving meals, working at the front desk, and helping organize activities.\n- John has also participated in food drives and community work, and has been involved in community projects with Maria in 2023.\n\nIn summary: **Both John and Maria have volunteered at a local homeless shelter, including volunteering together in 2022.**",
+          "response_time": 8.735,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that both John and Maria have volunteered at a local homeless shelter, which matches the gold answer, and extra details do not detract from correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "Where has Maria made friends?",
+          "expected_answer": "homeless shelter, gym, church",
+          "ai_response": "Maria has made friends in the following places:\n\n1. **Volunteering at the homeless shelter**  \n   - Maria became friends with a fellow volunteer at the homeless shelter (as of January 9, 2023).\n\n2. **Church**  \n   - Maria took up community work and went camping with friends from church (camping on June 5, 2023; community work on August 4, 2023).\n   - Maria had a picnic with friends from church on July 10, 2023.\n\n3. **Gym**  \n   - Maria was going to have dinner with some friends from the gym on July 7, 2023.\n\n4. **General social activities**  \n   - Maria usually has game nights, hikes, and movie nights at her place with friends (ongoing throughout 2023).\n\nIn summary, Maria has made friends through volunteering at the homeless shelter, at church, at the gym, and through regular social gatherings at her home.",
+          "response_time": 4.608,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes all the key locations from the gold answer (homeless shelter, gym, church) and provides additional detail, which is acceptable.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What items des John mention having as a child?",
+          "expected_answer": "A doll, a film camera",
+          "ai_response": "John mentions having the following items as a child:\n\n1. A film camera – John said he had a film camera as a child and took plenty of beach photos with it.\n2. A pet named Max – Max was an important part of John's family for 10 years and taught John about unconditional love and loyalty.\n\nThese are the specific items John mentions having as a child based on all provided context.",
+          "response_time": 4.92,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes 'a film camera,' which matches one of the gold answer items, and partial matches are considered correct; extra information about a pet does not make it wrong.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "Who gave Maria's family money when she was younger and her family was going through tough times?",
+          "expected_answer": "Her aunt",
+          "ai_response": "When Maria was younger and her family was going through tough times, Maria's aunt helped her family out. Specifically, Maria mentioned that her aunt believed in volunteering and used to help her family when they were struggling.",
+          "response_time": 6.117,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that Maria's aunt helped her family during tough times, matching the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What people has Maria met and helped while volunteering?",
+          "expected_answer": "David, Jean, Cindy, Laura",
+          "ai_response": "While volunteering, Maria has met and helped the following people:\n\n1. **Jean** – On February 24, 2023, Maria met an amazing woman named Jean at the homeless shelter. Jean had been through a lot but remained optimistic and resilient, teaching Maria about gratitude and connection.\n\n2. **Shelter Residents (including children)** – On January 21, 2023, Maria volunteered at a shelter during an event for kids, helping children who lacked resources. She has also participated in serving meals and organizing activities for shelter residents on multiple occasions.\n\n3. **Laura** – Maria made a positive impact on a shelter resident named Laura (mentioned July 3, 2023).\n\n4. **General Shelter Guests** – Maria has helped people at the shelter get food or a bed (August 11, 2023), and has described seeing the smiles on their faces as very rewarding.\n\n5. **Fellow Volunteers** – Maria has built connections and friendships with other volunteers at the shelter, including becoming friends with one fellow volunteer (date not specified, but after April 2023).\n\n6. **Families and Children** – Maria started volunteering after witnessing a family struggling on the streets around August 2022, which inspired her to reach out and help.\n\n7. **Dog Shelter** – Maria also started volunteering at a local dog shelter once a month, helping animals and supporting the shelter’s mission (date not specified, but after John mentioned adopting a pup).\n\nMaria has also given talks at the shelter, receiving compliments from other volunteers, and has helped organize and participate in various events (e.g., dropping off baked goods, serving meals, and running activities for kids). The people she has helped include shelter residents (adults and children), fellow volunteers, and animals at the dog shelter.",
+          "response_time": 7.271,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes Jean and Laura from the gold answer, and while it does not explicitly mention David and Cindy, it covers the same topic and provides detailed examples of people Maria has met and helped while volunteering.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What test has John taken multiple times?",
+          "expected_answer": "The military aptitude test",
+          "ai_response": "John has taken the military aptitude test multiple times. He mentioned recently failing the military aptitude test and feeling a bit stressed out about it.",
+          "response_time": 2.692,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that John has taken the military aptitude test multiple times, matching the gold answer and providing relevant context.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What writing classes has Maria taken?",
+          "expected_answer": "Poetry, creative writing",
+          "ai_response": "Maria has taken the following writing classes:\n\n1. **Creative writing class** – Maria took a creative writing class around February 2023 (event ~2023/02, mentioned 2023/02/25).\n2. **Poetry class** – Maria has been taking a poetry class as of April 2023 (mentioned 2023/04/02) to help put her feelings into words.\n\nThese are the two writing classes specifically mentioned in the provided context.",
+          "response_time": 3.411,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies both 'poetry' and 'creative writing' as the writing classes Maria has taken, matching the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "Who did John go to yoga with?",
+          "expected_answer": "Rob",
+          "ai_response": "John went to yoga with a colleague. Specifically, he started a weekend yoga class with a colleague (mentioned on April 6, 2023). Additionally, his colleague Rob invited him to a beginner's yoga class (noted before February 25, 2023). There is no mention of John going to yoga with family or other friends; the context consistently refers to attending with a colleague.",
+          "response_time": 3.484,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies that John went to yoga with his colleague Rob, which matches the gold answer, even though it provides additional context.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What damages have happened to John's car?",
+          "expected_answer": "Broken windshield, Car broke down",
+          "ai_response": "John's car has experienced the following damages:\n\n1. **Broken Windshield**  \n   - **Date:** January 2, 2023  \n   - **Details:** John shared an image showing a car with a broken windshield and mentioned the incident happened on his way home.\n\n2. **Car Damaged in an Accident**  \n   - **Date:** July 2, 2023  \n   - **Details:** Maria mentioned that a car ran a red light and hit them, but thankfully everyone was okay. Maria also shared an image of a car that had been damaged and was sitting on a flatbed.\n\nSo, John's car has had a broken windshield (January 2, 2023) and was damaged in a collision caused by another car running a red light (July 2, 2023).",
+          "response_time": 3.687,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes both the broken windshield and car damage from an accident, which matches the gold answer's key damages.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What areas of the U.S. has John been to or is planning to go to?",
+          "expected_answer": "Pacific northwest, east coast",
+          "ai_response": "Based on all the provided context, here are the areas of the U.S. that John has been to or is planning to go to:\n\n**1. East Coast (Planning to go):**\n- John mentioned, \"I'm planning a trip to the East Coast.\" (2023)\n\n**2. West County (Old area):**\n- John wants to work on improving West County, which is described as his old area. This implies he has lived in or spent significant time in West County.\n\n**3. Local/Current Neighborhood:**\n- John is actively involved in his current community, attending meetings, organizing events (like a 5K charity run), and engaging with local leaders. While the specific city or state isn't named, it's clear he is present and active in his current local area.\n\n**4. Mountaineering Trip (with workmates):**\n- John went on a mountaineering trip with workmates on June 5, 2023. The specific location is not named, but it is within the U.S.\n\n**5. Trip for Daughter Sara’s Birthday (2022):**\n- John took a trip in 2022 for his daughter Sara’s birthday. The specific location is not provided.\n\n**Summary List:**\n- East Coast (planned trip, 2023)\n- West County (old area, lived or spent significant time)\n- Local/current neighborhood (active involvement)\n- Mountaineering trip location (U.S., June 2023, specific place not named)\n- Trip for daughter’s birthday (2022, location not specified)\n\n**Note:** No other specific U.S. regions, cities, or states are mentioned in the context.",
+          "response_time": 7.574,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes the East Coast (planned trip) and references to other areas John has been to, which aligns with the gold answer's focus on regions John has visited or plans to visit, including the East Coast; although it doesn't explicitly mention the Pacific Northwest, the answer is sufficiently on topic.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What desserts has Maria made?",
+          "expected_answer": "Banana split sundae, Peach cobbler",
+          "ai_response": "Maria has made the following desserts:\n\n1. **Banana split sundae** – Maria mentioned enjoying this after a day of volunteering, calling it a little moment of joy in life.\n2. **Peach cobbler** – Maria said she made some recently and that it was great.\n3. **Cakes** – Maria mentioned she was off to bake some cakes (no specific type given).\n4. **Baked goods** – On July 24, 2023, Maria dropped off baked goods at the homeless shelter (the specific types are not listed, but it is clear she baked for this occasion).\n5. **Homemade desserts** – Maria included homemade desserts as part of a meal spread she described, though specific types (other than those above) are not detailed.\n\n**Summary:**  \n- Banana split sundae  \n- Peach cobbler  \n- Cakes (type unspecified)  \n- Baked goods (type unspecified, delivered to shelter July 24, 2023)  \n- Homemade desserts (type unspecified, part of meal spread)",
+          "response_time": 4.525,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes both 'Banana split sundae' and 'Peach cobbler' as desserts Maria has made, matching the gold answer, and any extra details do not detract from correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What European countries has Maria been to?",
+          "expected_answer": "Spain, England",
+          "ai_response": "Based on all the provided context, Maria has been to:\n\n- **England** (she got the idea for her painting from a trip to England a few years before 2023)\n- **Spain** (she took a photo in Spain around 2022, mentioned on 2023/05/04)\n\nThese are the only European countries specifically mentioned that Maria has visited.",
+          "response_time": 2.955,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies both Spain and England as European countries Maria has visited, matching the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What has Maria done to feel closer to her faith?",
+          "expected_answer": "Join a local church, buy a cross necklace",
+          "ai_response": "Maria has taken the following actions to feel closer to her faith:\n\n1. On May 5, 2023, Maria joined a nearby church because she wanted to feel closer to a community and her faith. She reported that joining the church has been really great for her so far.\n2. Maria bought a cross necklace to feel closer to her faith, which has made her happy.\n\nThese are the specific steps Maria has taken, according to the provided context.",
+          "response_time": 3.841,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes both key actions from the gold answer (joining a local church and buying a cross necklace), matching the topic and details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What causes does John feel passionate about supporting?",
+          "expected_answer": "Veterans, schools, infrastructure",
+          "ai_response": "John feels passionate about supporting several causes, including:\n\n1. **Military Veterans**: John has been actively working on a project to support military veterans, including starting a petition and coordinating events to support them (mentioned multiple times in 2023, specifically May 13, May 20, May 25, August 3, and August 9). He is passionate about making sure veterans are supported and valued in the community.\n\n2. **Community Improvement & Activism**: John is passionate about making a positive impact through activism, improving education, and renovating community spaces (e.g., helped renovate a rundown community center in 2022; passionate about improving education as of December 22, 2022).\n\n3. **Helping the Underserved & Homeless**: John has volunteered at homeless shelters, helped organize food drives, and worked to connect people with housing and support (various events in 2022 and 2023).\n\n4. **Victims of Domestic Abuse**: John participated in raising awareness and fundraising for victims of domestic abuse (event on August 9, 2023).\n\n5. **General Community Support & Firefighting**: John is excited to be involved in the fire-fighting brigade (joined August 16, 2023) to help out his community and finds this work gives him a sense of purpose.\n\n6. **Education**: John is passionate about improving education in his community and has been fired up about this cause since at least December 22, 2022.\n\n7. **Mentoring Students**: John finds mentoring students rewarding (mentioned August 13, 2023).\n\nIn summary, John is passionate about supporting military veterans, improving education, helping the underserved and homeless, supporting victims of domestic abuse, general community improvement (including firefighting), and mentoring students.",
+          "response_time": 6.428,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes veterans and education (schools), and mentions community improvement which can reasonably encompass infrastructure, thus covering the main causes from the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What events is Maria planning for the homeless shelter funraiser?",
+          "expected_answer": "Chili cook-off, ring-toss tournament",
+          "ai_response": "Maria is planning a **ring-toss tournament** for the homeless shelter's fundraiser. This event is scheduled for **May 2023**. She is also involved in getting ready for a **fundraiser at the shelter on June 1, 2023**, with the goal of raising enough money to cover basic needs for the homeless. The ring-toss tournament is specifically mentioned as part of the May fundraiser, and she expects it to have a positive impact.",
+          "response_time": 3.318,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer mentions the ring-toss tournament, which is one of the events in the gold answer, so it is a partial but acceptable match.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What shelters does Maria volunteer at?",
+          "expected_answer": "The homeless shelter, the dog shelter",
+          "ai_response": "Based on all the provided context, Maria volunteers at the following shelters:\n\n1. **Local Homeless Shelter**  \n   - Maria has been volunteering at a local homeless shelter since around August 2022, after witnessing a family struggling on the streets.\n   - She has participated in various activities there, including organizing meals, volunteering at the front desk, giving talks, playing with kids, and planning fundraisers.\n   - She considers the people at this shelter like family and finds the experience very rewarding and fulfilling.\n   - She volunteered at this shelter on multiple specific dates, including January 21, 2023; April 3, 2023; April 10, 2023; May 25, 2023; June 26, 2023; July 22, 2023; July 31, 2023; August 2, 2023; and August 11, 2023.\n\n2. **Local Dog Shelter**  \n   - Maria started volunteering at a local dog shelter once a month (mentioned in August 2023).\n   - She also adopted a puppy from this shelter on August 6, 2023.\n\nNo other specific shelter names are mentioned in the context. Maria has expressed plans to explore and volunteer at more shelters in August 2023, but as of the latest information, the above two are the shelters she volunteers at.",
+          "response_time": 5.31,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies both the homeless shelter and the dog shelter as places where Maria volunteers, matching the gold answer, and provides additional but relevant detail.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What outdoor activities has John done with his colleagues?",
+          "expected_answer": "Hiking, mountaineering",
+          "ai_response": "John has done the following outdoor activities with his colleagues:\n\n1. **Mountaineering trip** – On June 5, 2023, John went on a mountaineering trip with his workmates. He found the experience great and said it helped clear his head.\n2. **Hiking trip** – John also went on a hiking trip with his workmates (date not specified, but referenced in conversation around May–June 2023). He shared a picture of his workmates and a dog at a waterfall during this trip.\n\nThese are the specific outdoor activities John has done with his colleagues, based on all provided context.",
+          "response_time": 3.497,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer lists both hiking and mountaineering as outdoor activities John did with his colleagues, matching the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What types of yoga has Maria practiced?",
+          "expected_answer": "Aerial, kundalini",
+          "ai_response": "Maria has practiced the following types of yoga:\n\n1. **Aerial Yoga** – Maria started doing aerial yoga in December 2022 and has mentioned it multiple times as a practice she enjoys for the freedom and connection it brings. She specifically enjoys upside-down poses in aerial yoga (mentioned 12 June 2023).\n\n2. **Kundalini Yoga** – Maria mentioned in June 2023 that she is trying kundalini yoga as part of her goal to get stronger and improve endurance.\n\n3. **Beginner Yoga Classes** – Maria has attended beginner yoga classes focusing on fundamentals like poses and breathing (mentioned 6 April 2023).\n\n4. **General Yoga Practice** – Maria regularly practices yoga, including stretching and breathing exercises, and attends yoga classes at a studio (as of July 2023).\n\nIn summary, Maria has practiced aerial yoga, kundalini yoga, beginner yoga classes (focusing on fundamentals), and general yoga/stretching and breathing exercises.",
+          "response_time": 4.286,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes both aerial and kundalini yoga, which matches the gold answer, and extra details do not detract from correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What states has Maria vacationed at?",
+          "expected_answer": "Oregon, Florida",
+          "ai_response": "Maria has vacationed in the following states:\n\n1. **Florida** – Maria has a picture from a vacation in Florida, where she experienced gratitude sitting with her family and watching a sunset (mentioned before 16 June 2023).\n2. **Oregon** – When Maria was younger, she and her family went on a road trip to Oregon.\n\nThese are the specific states mentioned in the provided context where Maria has vacationed.",
+          "response_time": 3.331,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies both Oregon and Florida as states Maria has vacationed in, matching the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What music events has John attended?",
+          "expected_answer": "Live music event, violin concert",
+          "ai_response": "John attended a live music event with his family on June 20, 2023. The event was lively, with dancing and a great atmosphere. No other specific music events are mentioned in the provided context.",
+          "response_time": 3.436,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer mentions John attended a live music event, which matches one of the events in the gold answer, so it is sufficiently correct despite not mentioning the violin concert.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What events for veterans has John participated in?",
+          "expected_answer": "Petition, march, party, visiting veterans hospital, 5K charity run",
+          "ai_response": "John has participated in several events for veterans, including:\n\n1. **Marching Event for Veterans' Rights** (2023): John participated in a marching event to support veterans' rights, which he described as awesome and a reminder of veterans' sacrifices.\n\n2. **5K Charity Run for Veterans and Their Families** (2023): John set up and organized a 5K charity run in his neighborhood to raise funds for veterans and their families. The event had a great turnout and successfully raised funds.\n\n3. **Party for Veterans to Share Their Stories** (May 2023): John organized a small party where veterans were invited to share their stories, make connections, and find camaraderie. This event took place around May 12, 2023.\n\n4. **Community Fundraising Event Supporting Veterans** (August 2, 2023): John participated in a community event to raise money for a good cause, specifically supporting veterans. He was involved in getting sponsors, coordinating with the city, and promoting the event.\n\n5. **Visit to a Veteran's Hospital** (July 10, 2023): John visited a veteran's hospital, met veterans, and found the experience eye-opening and inspiring.\n\n6. **Coordinating Events and Virtual Support Group** (2023): John coordinated events to support veterans and asked family and friends to join a virtual support group to advocate for the military.\n\n7. **Project and Petition for Military Veterans** (May 2023): John worked on a project to support military veterans, including trying to get a petition going to advocate for their rights.\n\nThese events show John's ongoing commitment to supporting veterans through organizing, participating, and advocating in various ways throughout 2023.",
+          "response_time": 6.466,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer lists all the key events from the gold answer (petition, march, party, visiting veterans hospital, 5K charity run) and provides additional details, so it matches the topic and covers the required information.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What are the names of John's children?",
+          "expected_answer": "Kyle, Sara",
+          "ai_response": "Based on the provided context, one of John's children is named Kyle (specifically, the one-year-old, as mentioned by John: \"Our one-year-old is so cute, his name is Kyle!\"). The names of John's other children are not specified in the available information. Therefore, the only known name of John's children is:\n\n- Kyle (one-year-old son)\n\nNo other children's names are given in the context.",
+          "response_time": 3.326,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies Kyle as one of John's children, which matches part of the gold answer, and partial matches are considered correct.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What area was hit by a flood?",
+          "expected_answer": "West County",
+          "ai_response": "John's old area, West County, was hit by a nasty flood on June 30, 2023. The infrastructure there wasn't great, and lots of homes were ruined as a result.",
+          "response_time": 2.768,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that West County was hit by a flood, matching the gold answer's key information.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What activities has Maria done with her church friends?",
+          "expected_answer": "Hiking, picnic, volunteer work",
+          "ai_response": "Maria has done the following activities with her church friends:\n\n1. **Hiking**: On July 15, 2023, Maria went hiking with her church friends and found the experience refreshing and rejuvenating.\n2. **Picnic**: On July 10, 2023, Maria had a picnic with church friends where they sat under the trees, played games, and ate food.\n3. **Camping**: On June 5, 2023, Maria went camping with some friends from church.\n4. **Community Work**: On August 4, 2023, Maria took up community work with her friends from church, which she found super rewarding.\n5. **Playing Games**: During the July 10, 2023 picnic, Maria and her church friends played games together.\n\nIn summary, Maria has hiked, camped, had picnics, played games, and participated in community work with her church friends.",
+          "response_time": 4.757,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes hiking, picnic, and volunteer/community work, which matches the gold answer, and extra activities do not detract from correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What exercises has John done?",
+          "expected_answer": "Weight training, Circuit training, Kickboxing, yoga",
+          "ai_response": "John has done the following exercises:\n\n1. **Kickboxing** – Practiced in 2022, described as giving him a lot of energy and helping him stay in shape and de-stress.\n2. **Yoga** – Participated in yoga sessions in 2023, including simple stretching and breathing exercises, which he finds beneficial for mental and physical wellbeing. He attends yoga classes with an instructor who emphasizes proper poses and body awareness.\n3. **Boot camps** – Started going to boot camps with his family on April 4, 2023, and works out together with them.\n4. **Weight training** – Has done weight training before July 22, 2023.\n5. **Running** – Set up and participated in a 5K charity run in his neighborhood in 2023.\n6. **Rock climbing** – Expressed interest in rock climbing and enjoys climbing activities.\n7. **General workouts/exercise routines** – Tries out different workout regimes and works out three times a week as of May 4, 2023.\n8. **Family fitness activities** – Engages in walks, picnics, and park activities with his family, which often include physical activity.\n\nThese activities span from 2022 through 2023 and include both individual and group/family exercises.",
+          "response_time": 4.8,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes weight training, kickboxing, yoga, and circuit/boot camp training, which matches the gold answer's exercises, even though it also lists additional activities.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What food item did Maria drop off at the homeless shelter?",
+          "expected_answer": "Cakes",
+          "ai_response": "Maria dropped off baked goods at the homeless shelter on July 24, 2023.",
+          "response_time": 2.817,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer specifies 'baked goods,' which includes cakes, thus it touches on the same topic as the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "Who have written notes of gratitude to Maria?",
+          "expected_answer": "Cindy, Laura",
+          "ai_response": "Based on all the provided context, the following people have written notes or letters of gratitude to Maria:\n\n1. **Cindy** – One of the residents at the shelter. Maria stated that Cindy wrote a heartfelt expression of gratitude, demonstrating the impact of the support she and other residents receive at the shelter. (Mentioned 3 August 2023)\n\n2. **Laura** – Another shelter resident. Maria said that Laura wrote a letter expressing gratitude to Maria, inspired by the impact Maria made on her life. (Mentioned 3 August 2023 and 3 July 2023)\n\n**Summary:**  \n- Cindy (shelter resident) – heartfelt note of gratitude  \n- Laura (shelter resident) – letter expressing gratitude\n\nBoth notes were mentioned in July and August 2023.",
+          "response_time": 4.184,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies Cindy and Laura as people who have written notes of gratitude to Maria, matching the gold answer, and provides additional context without omitting key information.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What causes has John done events for?",
+          "expected_answer": "Toy drive, Community food drive, veterans, domestic violence",
+          "ai_response": "John has done events for the following causes:\n\n1. **Veterans and Military Support**\n   - Organized a 5K charity run in his neighborhood in 2023 to help out veterans and their families, raising funds for them.\n   - Worked on a project to support military veterans, including trying to get a petition going (2023).\n   - Coordinated events to support veterans and hosted a small party inviting veterans to share their stories (May 2023).\n   - Asked friends and family to join a virtual support group for the military (2023).\n\n2. **Homelessness and Food Insecurity**\n   - Went to a homeless shelter to give out food and supplies (2023).\n   - Organized a toy drive for kids in need (2023).\n   - Participated in and organized food drives, including recruiting volunteers and securing sponsors for events (2023).\n\n3. **Victims of Domestic Abuse**\n   - Worked with a local organization that helps victims of domestic abuse, raising awareness and funds at an event (August 2023).\n\n4. **Community Improvement and Education**\n   - Passionate about improving education in his community and has participated in community meetings (2023).\n   - Started a petition supporting education and infrastructure with volunteers and a team (May 2023).\n   - Organized gatherings to discuss solutions for community issues (2023).\n\n5. **General Community Support and Charity**\n   - Participated in community events with arts and crafts and family activities (June 17, 2023).\n   - Involved in various charity events and community work, including supporting fundraising and awareness campaigns for different causes.\n\n**Summary:**  \nJohn has organized and participated in events for veterans and military families, homelessness and food insecurity, victims of domestic abuse, education and community improvement, and general charity/community support.",
+          "response_time": 7.138,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer covers all the key causes from the gold answer—veterans, toy drive, community food drive, and domestic violence—even though it includes extra detail and additional causes.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What are Maria's dogs' names?",
+          "expected_answer": "Coco, Shadow",
+          "ai_response": "Maria has two dogs:\n\n1. Shadow – A black, energetic puppy adopted from a shelter on August 6, 2023. Shadow is described as full of energy, always puts a smile on Maria’s face, and has been a great addition to her life. Shadow gets along great with other pets or people in Maria’s life.\n\n2. Coco – A white puppy adopted on July 28, 2023. Coco is described as adorable and playful, and Maria shared a photo of Coco playing with a ball in the grass.\n\nSo, Maria’s dogs’ names are Shadow and Coco.",
+          "response_time": 3.499,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies Maria's dogs' names as Shadow and Coco, matching the gold answer, and extra details do not detract from correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "How many dogs has Maria adopted from the dog shelter she volunteers at?",
+          "expected_answer": "two",
+          "ai_response": "Maria has adopted one dog from the dog shelter she volunteers at. On August 6, 2023, she adopted a black puppy from a shelter and named her Shadow. There is no evidence in the provided context that Maria has adopted more than one dog from the dog shelter where she volunteers.",
+          "response_time": 3.297,
+          "evaluation": {
+            "is_correct": false,
+            "reasoning": "The generated answer states Maria adopted one dog, while the gold answer says she adopted two, so the key information does not match.",
+            "error": null
+          }
+        }
+      ]
+    },
+    "multi_hop": {
+      "total": 8,
+      "evaluated_count": 8,
+      "correct_count": 7,
+      "accuracy_percentage": 87.5,
+      "responses": [
+        {
+          "conversation_id": "conv-41",
+          "question_type": "multi_hop",
+          "category": 3,
+          "question": "What might John's financial status be?",
+          "expected_answer": "Middle-class or wealthy",
+          "ai_response": "Based on all the provided context, John has been experiencing some financial difficulties:\n\n- On April 10, 2023, it is specifically mentioned that John has been experiencing money problems.\n- On December 16, 2022, John mentioned that his car broke down, it was tough to get it fixed, and it was putting a strain on his wallet.\n- John has expressed gratitude for support from his family and supporters, which may indicate reliance on their help during tough times.\n- There is no mention of John having significant financial resources or wealth; instead, the context points to financial challenges and the importance of support systems.\n\n**Summary:**  \nJohn's financial status appears to be strained or challenged as of 2023, with specific references to money problems and unexpected expenses (like car repairs) putting pressure on his finances.",
+          "response_time": 4.193,
+          "evaluation": {
+            "is_correct": false,
+            "reasoning": "The generated answer describes John as having financial difficulties, which is the opposite of the gold answer's suggestion that he is middle-class or wealthy.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "multi_hop",
+          "category": 3,
+          "question": "Would John be considered a patriotic person?",
+          "expected_answer": "Yes",
+          "ai_response": "Yes, John would be considered a patriotic person.\n\n**Evidence from the context:**\n- John has participated in multiple events supporting veterans and military causes, such as a community event to raise money for veterans (August 2, 2023), a marching event for veterans' rights, and working on a project to support military veterans (May 2023).\n- John has expressed a strong urge to serve his country and community, mentioning that running for office was his chance to make an impact (March 6, 2023).\n- John has always had great respect for the military and wanted to show support, stating, \"I think it's important to stand up for what we believe in.\"\n- John is passionate about making sure veterans are supported and valued in the community and encourages others to be advocates for the military (2023).\n- John is involved in activism, politics, and community service, all with a focus on supporting the country, veterans, and improving society.\n- John is excited to be involved in the fire-fighting brigade to help out the community (August 16, 2023).\n- John describes feeling a bond while serving and protecting the community that he hasn't felt since his time in the military (2023).\n\n**Conclusion:**  \nJohn's consistent actions, statements, and involvement in causes supporting veterans, the military, and the broader community clearly demonstrate patriotic values.",
+          "response_time": 4.822,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer affirms that John would be considered a patriotic person, which matches the gold answer and is supported by the evidence provided.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "multi_hop",
+          "category": 3,
+          "question": "What might John's degree be in?",
+          "expected_answer": "Political science, Public administration, Public affairs",
+          "ai_response": "Based on the provided context, there is no explicit statement of the exact subject of John’s degree. However, there are several strong clues:\n\n- John completed a university degree (photo of certificate shared, conversation dated after 2023/08/09).\n- John is considering going into policymaking because of his degree and his passion for making a positive impact (mentioned after Maria congratulated him on finishing his degree).\n- John is currently focused on education reform and infrastructure development (2023).\n- John has been involved in politics, community engagement, and projects supporting veterans.\n- John has experience with networking, organizing events, and working with community leaders.\n\nGiven these clues, it is most likely that John’s degree is in a field related to:\n- Political Science\n- Public Policy\n- Public Administration\n- Social Sciences (with a focus on community development or education)\n\n**Summary:**  \nJohn’s degree is not explicitly named, but it is most likely in Political Science, Public Policy, Public Administration, or a related social science field, given his focus on policymaking, education reform, infrastructure, and community engagement.",
+          "response_time": 4.567,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer identifies Political Science, Public Policy, and Public Administration as likely fields for John's degree, which matches the gold answer's topics, and provides reasonable justification based on context.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "multi_hop",
+          "category": 3,
+          "question": "Around which US holiday did Maria get into a car accident?",
+          "expected_answer": "Independence Day",
+          "ai_response": "Maria got into a car accident caused by another car running a red light on or just before July 2–3, 2023. This incident occurred around the US holiday of Independence Day (July 4th).",
+          "response_time": 2.943,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies that the car accident occurred around Independence Day, matching the gold answer, and provides additional context without contradicting the key information.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "multi_hop",
+          "category": 3,
+          "question": "Does John live close to a beach or the mountains?",
+          "expected_answer": "beach",
+          "ai_response": "Based on all the provided context, John appears to live close to the beach, not the mountains.\n\n**Evidence:**\n- John frequently shares and discusses photos of sunsets over the ocean and beach scenes (e.g., June 28, 2023: \"a photo of a sunset over the ocean with a sailboat in the distance\"; a couple walking into the ocean at sunset; mentions of taking walks where ocean sunsets can be seen).\n- John mentions going to the park with family a few times each week (2023), and these walks often involve seeing ocean sunsets.\n- There is no direct mention of John living near the mountains. While John enjoys mountaineering and hiking trips (e.g., mountaineering trip with workmates on June 5, 2023), these are described as trips or vacations, not regular local activities.\n\n**Conclusion:**  \nJohn lives close to the beach, as evidenced by regular walks to see ocean sunsets and frequent references to beach scenes. The mountains are places he visits for trips, not his local environment.",
+          "response_time": 4.453,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that John lives close to the beach, matching the gold answer, and provides supporting evidence for this conclusion.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "multi_hop",
+          "category": 3,
+          "question": "Would John be open to moving to another country?",
+          "expected_answer": "No, he has goals specifically in the U.S. like joining the military and running for office.",
+          "ai_response": "Based on all the provided context, there is no direct evidence that John has expressed an interest in moving to another country. The information shows that John is highly committed to his local community, involved in community projects, volunteering, supporting veterans, and recently joined the fire-fighting brigade (as of 2023/08/16). John is also considering opportunities in the tech industry but these are described as local or within the country.\n\nJohn’s focus is on making a difference in his current community, working with local leaders, and improving local infrastructure and education. There are no mentions of plans, desires, or openness to relocating internationally. In fact, John’s strong ties to family, friends, and ongoing community projects suggest a preference for staying local.\n\n**Conclusion:**  \nThere is no indication that John would be open to moving to another country; all evidence points to a strong commitment to his current community and local projects.",
+          "response_time": 4.271,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly concludes that John is not open to moving to another country, aligning with the gold answer's reasoning about his strong local commitments, even though it provides more detail.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "multi_hop",
+          "category": 3,
+          "question": "What attributes describe John?",
+          "expected_answer": "Selfless, family-oriented, passionate, rational",
+          "ai_response": "John is described by the following attributes:\n\n- Passionate about helping others and making a difference in the community (mentioned repeatedly, e.g., 2023/08/16, 2023/03/06, 2023/05/20).\n- Enthusiastic, motivated, and determined (Maria describes John as passionate and motivated; John’s perseverance and determination are noted by Maria).\n- Family-oriented: Family is the most important thing for John; he is grateful for his family’s support and love, and values shared family time (multiple mentions, e.g., 2023/03/06, 2023/08/16).\n- Community-minded: Actively involved in volunteering, charity work, and community improvement (ongoing as of 2023/08; joined fire-fighting brigade on 2023/08/16; organizes events and fundraisers).\n- Supportive friend: Values friendship highly, considers Maria a friend, and appreciates mutual support (mentioned 2024/06, 2023/07/07, 2023/08/05).\n- Team player: Has a supportive team, values teamwork, and has supportive workmates (mentioned 2023/05/25).\n- Inspired by making a positive impact, especially in education, infrastructure, and through technology (passion for education fired up on 2022/12/22; interested in tech for good).\n- Enjoys organizing and participating in activities for family and community (walks, picnics, games, events).\n- Finds fulfillment in serving others, including through the fire-fighting brigade and mentoring students (joined brigade 2023/08/16; mentoring as of 2023/08/13).\n- Resilient and grateful: Expresses gratitude for family, friends, and opportunities to help others.\n- Sees value in spreading kindness, joy, and comfort (values spreading kindness, 2023/08/16).\n- Politically and civically engaged: Interested in local politics, policy, and community advocacy (active in 2023).\n- Hardworking and willing to take on challenges (worked hard lifting heavy objects, 2023/08/16; completed intense training in 2023/07).\n- Enjoys outdoor activities and spending time in nature (hiking, climbing, camping).\n- Seeks to teach his children about love, loyalty, and community service.\n- Finds meaning in keeping the community safe and striving for a better future.\n\nIn summary, John is passionate, motivated, community-focused, family-oriented, supportive, hardworking, and dedicated to making a positive impact through service, teamwork, and advocacy.",
+          "response_time": 9.777,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes the key attributes from the gold answer—selfless (community service, supportive, serving others), family-oriented, passionate, and rational (motivated, determined, hardworking)—and expands with additional relevant details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "multi_hop",
+          "category": 3,
+          "question": "What job might Maria pursue in the future?",
+          "expected_answer": "Shelter coordinator, Counselor",
+          "ai_response": "Based on all the provided context, Maria might pursue the following jobs in the future:\n\n1. **Roles in the Nonprofit or Social Services Sector**: Maria is passionate about charity work, finds volunteering at homeless shelters rewarding (ongoing since August 2022), and is interested in helping underserved communities. She has experience organizing fundraisers, helping at shelters, and mentoring students. She has also expressed interest in helping with networking and future community events.\n\n2. **Positions Related to Education or Mentorship**: Maria believes children are the future and should have the best opportunities, enjoys working with children, and finds mentoring students rewarding (mentioned 13 August 2023).\n\n3. **Community Organizing or Advocacy**: Maria has been involved in taking notes about local politics, brainstorming ways to help communities, and collaborating on neighborhood improvements. She has also shown interest in supporting military veterans and raising awareness for various causes.\n\n4. **Roles in the Tech Industry**: Maria is considering opportunities in the tech industry (mentioned 5 August 2023), possibly leveraging her skills in networking, organizing, and community support.\n\n5. **Creative or Writing-Related Jobs**: Maria has taken a creative writing class, is taking a poetry class (as of 2023), and is interested in blogging (mentioned 18 April 2023).\n\nIn summary, Maria might pursue jobs in nonprofit/social services, education/mentorship, community organizing/advocacy, the tech industry, or creative/writing-related fields.",
+          "response_time": 6.093,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes roles such as shelter coordinator and counselor by mentioning nonprofit/social services and mentoring, which matches the gold answer's topics, even though it provides additional possibilities.",
+            "error": null
+          }
+        }
+      ]
+    },
+    "open_domain": {
+      "total": 86,
+      "evaluated_count": 86,
+      "correct_count": 80,
+      "accuracy_percentage": 93.02325581395348,
+      "responses": [
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What is John's main focus in local politics?",
+          "expected_answer": "Improving education and infrastructure",
+          "ai_response": "John’s main focus in local politics is **improving education and infrastructure** in the community.\n\n- He has repeatedly stated that education reform and infrastructure development are his priorities (see messages from 2023/01/28, 2023/08/09, and others).\n- John believes that good access to quality education and updated infrastructure are key to a thriving and successful community.\n- He has attended community meetings to understand the challenges in these areas and wants to get conversations going, involve people, and take action.\n- John is passionate about making a positive impact in these areas, as shown by his blogging, community involvement, and direct statements (e.g., \"I'm passionate about improving education and infrastructure in our community. Those are my main focuses.\" - 2023/08/09).\n\n**Summary:**  \nJohn’s main focus in local politics is improving education and infrastructure to create a better, more successful community.",
+          "response_time": 4.172,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that John's main focus in local politics is improving education and infrastructure, which matches the gold answer, and provides supporting details without contradicting the key information.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What sparked John's interest in improving education and infrastructure in the community?",
+          "expected_answer": "Seeing how lack of education and crumbling infrastructure affected his neighborhood while growing up.",
+          "ai_response": "John’s interest in improving education and infrastructure in the community was sparked by several key experiences:\n\n1. **Personal Observations and Community Meetings (2023):**\n   - John attended community meetings in 2023, where he listened to residents’ worries and saw firsthand how issues with education and infrastructure affected the area, especially children. He stated, “It was really interesting hearing everyone's worries and how it affects our area. It made me realize how crucial the upgrades are, especially for the kids. I'm really upset seeing the state of our education.” (early 2023)\n   - Participation in these meetings gave him a better understanding of the challenges facing education and infrastructure systems and highlighted the need for solutions.\n\n2. **Direct Community Involvement (2022):**\n   - In 2022, John helped renovate a rundown community center back home. He observed the positive impact this had on the community, which reinforced his belief in the importance of infrastructure improvements.\n\n3. **Desire to Make a Difference:**\n   - John has expressed a strong urge to serve his country and community (March 2023) and finds it rewarding to help make a difference in people’s lives.\n   - He is passionate about using tech for good and believes that access to quality education and updated infrastructure are key to a thriving community.\n\n4. **Blogging and Advocacy:**\n   - John began blogging about politics and government, focusing on the need for better education and infrastructure, and found it satisfying to advocate for real impact.\n\n**Summary:**  \nJohn’s interest was sparked by his direct involvement in community improvement projects (like renovating a community center in 2022), attending community meetings where he heard about local concerns (especially regarding children), and his ongoing desire to serve and make a positive impact. These experiences, combined with his advocacy through blogging and discussions with community leaders, fueled his passion for improving education and infrastructure.",
+          "response_time": 6.736,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer covers the same topic as the gold answer by explaining that John's interest was sparked by witnessing the effects of poor education and infrastructure in his community, even though it provides more detail and examples.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "How did the extra funding help the school shown in the photo shared by John?",
+          "expected_answer": "Enabled needed repairs and renovations, making the learning environment safer and more modern for students.",
+          "ai_response": "The extra funding helped the school shown in the photo shared by John (photo taken in 2021 after the school received funding) by enabling renovations to the building. John shared a photo of a group of men working on the building, indicating that the funding was used for much-needed improvements to the school's infrastructure. This renovation had a positive impact on the school and its students, as noted by Maria, who commented that it really made a difference for schools and students.",
+          "response_time": 3.596,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer addresses the same topic as the gold answer by explaining that extra funding enabled renovations and improvements to the school's infrastructure, which positively impacted students, matching the key points of repairs, renovations, and a better learning environment.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What type of workout class did Maria start doing in December 2023?",
+          "expected_answer": "aerial yoga",
+          "ai_response": "Maria started doing aerial yoga in December 2022. There is no mention in the provided context of Maria starting a new workout class specifically in December 2023. The relevant detail is that Maria began aerial yoga in December 2022 and has continued to enjoy it.",
+          "response_time": 3.613,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies 'aerial yoga' as the workout class Maria started, which matches the gold answer, even though it notes the start date as December 2022 instead of 2023.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did Maria donate to a homeless shelter in December 2023?",
+          "expected_answer": "old car",
+          "ai_response": "Maria donated her old car to a homeless shelter on December 21, 2022. There is no record in the provided context of Maria donating anything to a homeless shelter in December 2023.",
+          "response_time": 3.433,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that Maria donated her old car to a homeless shelter, which matches the gold answer's key information, even though the date is different.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What kind of meal did John and his family make together in the photo shared by John?",
+          "expected_answer": "pizza",
+          "ai_response": "In the photo shared by John showing his family making a meal together, the specific meal mentioned is an apple pie, which John made for the kids on May 3, 2023. He shared a photo of a homemade apple pie with vanilla ice cream. \n\nSo, the meal John and his family made together in the photo is **homemade apple pie with vanilla ice cream**.",
+          "response_time": 3.264,
+          "evaluation": {
+            "is_correct": false,
+            "reasoning": "The generated answer says the meal was apple pie with vanilla ice cream, while the gold answer specifies pizza; these are different meals, so the answer is incorrect.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What kind of online group did John join?",
+          "expected_answer": "service-focused online group",
+          "ai_response": "John joined a service-focused online group on December 25, 2022. This group is centered around serving others, sharing inspiring stories, and fostering a sense of connection and purpose among its members. Additionally, John later asked family and friends to join a virtual support group to be advocates for the military, but the group he personally joined on December 25, 2022, is specifically described as a service-focused online group.",
+          "response_time": 3.908,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that John joined a service-focused online group, which matches the gold answer, and any additional details do not contradict or omit the key information.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What kind of activities did John and his mates from the online group do as part of their service efforts?",
+          "expected_answer": "gave out food and supplies at a homeless shelter, organized a toy drive for kids in need",
+          "ai_response": "John and his mates from the service-focused online group participated in several service activities, including:\n\n1. **Food Drives**: They organized and volunteered at food drives to help people who lost their jobs, including packing food bags at a local food bank (mentioned in early 2023).\n2. **Volunteering at Homeless Shelters**: They went to a homeless shelter to give out food and supplies, directly helping residents and seeing the positive impact on their lives.\n3. **Toy Drives**: They organized a toy drive for kids in need, bringing the community together to spread joy.\n4. **Community Center Renovation**: John helped renovate a rundown community center back home in 2022, which had a positive impact on the community.\n5. **Career Fair Volunteering**: John volunteered at a career fair at a local school, helping underprivileged students and witnessing the challenges they face due to lack of resources.\n6. **Brainstorming for Community Empowerment**: The group brainstormed ways to help underserved communities access education, mentorship, job training, and resume building.\n7. **Petition and Advocacy**: John worked on a petition to support education and infrastructure, and encouraged family and friends to join a virtual support group and advocate for the military.\n8. **Fundraising Events**: John set up a 5K charity run to raise funds for veterans and their families.\n\nThese activities reflect a broad commitment to community service, focusing on direct aid, empowerment, and advocacy.",
+          "response_time": 5.312,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes both giving out food and supplies at a homeless shelter and organizing a toy drive for kids in need, which matches the key activities in the gold answer, and extra details are acceptable.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "Who inspired Maria to start volunteering?",
+          "expected_answer": "Her aunt",
+          "ai_response": "Maria was inspired to start volunteering by her aunt, who believed in volunteering and used to help Maria's family when they were struggling. This inspiration is specifically mentioned in Maria's own words: \"I'm inspired by her.\" (Conversation, 2023/02/25 and other references).",
+          "response_time": 2.862,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies Maria's aunt as the person who inspired her to start volunteering, matching the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "Why did Maria sit with the little girl at the shelter event in February 2023?",
+          "expected_answer": "The girl seemed sad and had no other family",
+          "ai_response": "Maria sat with the little girl at the shelter event in February 2023 to provide comfort and support. The context shows that Maria volunteered at a shelter during an event for kids on January 21, 2023, and she has shared images and stories about interacting with children at the shelter, including a touching moment where a little girl was smiling and holding a doll. Maria’s motivation for volunteering stems from her desire to help those in need, inspired by witnessing families struggling on the streets and her aunt’s belief in volunteering. She finds joy in seeing the impact of her actions and the gratitude from people at the shelter, especially children. Sitting with the little girl was part of Maria’s ongoing effort to bring joy, comfort, and kindness to those who need it most.",
+          "response_time": 4.064,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer explains that Maria sat with the little girl to provide comfort and support, which aligns with the gold answer's reason that the girl seemed sad and had no other family; both focus on Maria's compassionate motivation.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did Jean go through before meeting Maria?",
+          "expected_answer": "divorce, job loss, homelessness",
+          "ai_response": "Before meeting Maria, Jean had \"been through a lot,\" as described by Maria during their conversation about volunteering on February 24, 2023. While specific details of Jean's experiences are not provided, Maria emphasized that despite these hardships, Jean remained optimistic and resilient.",
+          "response_time": 3.329,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies that Jean went through significant hardships before meeting Maria, which aligns with the gold answer's mention of divorce, job loss, and homelessness, even though it does not specify the exact events.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "Why did John decide to run for office again?",
+          "expected_answer": "saw the impact he could make in the community through politics",
+          "ai_response": "John decided to run for office again because he feels a strong urge to serve his country and community and wants to make a positive impact. After his last run (before April 29, 2023), he saw the difference he could make in the community through politics, which he found rewarding. He was particularly motivated by seeing the effects of unemployment on his neighbors and wanted to help during tough times, such as by organizing a community food drive. John is passionate about improving education and infrastructure, and he started a petition related to these issues in 2023. He also feels empowered by helping others and finds it rewarding to know he is making a difference. His family and experiences in the military further inspire his commitment to serve. He officially decided to run for office again on April 29, 2023, despite not having been successful in previous attempts, because he can't let go of his dream to make a difference in his community.",
+          "response_time": 4.398,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes that John decided to run for office again because he saw the impact he could make in the community through politics, which matches the key point in the gold answer, even though it provides additional details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What activity did John's colleague, Rob, invite him to?",
+          "expected_answer": "beginner's yoga class",
+          "ai_response": "John's colleague, Rob, invited him to a beginner's yoga class.",
+          "response_time": 2.503,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that Rob invited John to a beginner's yoga class, which matches the gold answer exactly.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What is the name of John's one-year-old child?",
+          "expected_answer": "Kyle",
+          "ai_response": "John's one-year-old child is named Kyle. This was confirmed when John replied to Maria: \"Our one-year-old is so cute, his name is Kyle!\"",
+          "response_time": 2.669,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that John's one-year-old child is named Kyle, matching the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "How often does John take his kids to the park?",
+          "expected_answer": "A few times a week",
+          "ai_response": "John takes his kids to the park a few times each week. Specifically:\n\n- John stated, \"we go a few times a week. It's great for family bonding and letting the kids run around.\"\n- He also mentioned, \"I go to the park with family a few times a week\" (as of March 6, 2023).\n- In July 2023, John said, \"I see them at least once a week. It's a good way to disconnect, think, and find peace in this crazy world.\" However, this may refer to solo visits or a different context, as the more frequent \"a few times a week\" is repeated elsewhere.\n\nSummary: John takes his kids to the park a few times each week.",
+          "response_time": 3.977,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that John takes his kids to the park a few times each week, which matches the gold answer's 'a few times a week,' and extra details do not contradict the main information.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did Maria make for her home to remind her of a trip to England?",
+          "expected_answer": "painting of a castle on a hill",
+          "ai_response": "Maria made a painting of a castle on a hill for her home to remind her of her trip to England. She was mesmerized by the castles during her visit (which took place a few years before 2023), and wanted to bring that same magic and architectural charm into her own space as a reminder of the world's beauty and London's history and grace.",
+          "response_time": 2.993,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer states that Maria made a painting of a castle on a hill for her home to remind her of her trip to England, which matches the gold answer's key information.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "Where did Maria get the idea for the castle shadow box in her home?",
+          "expected_answer": "England",
+          "ai_response": "Maria got the idea for the castle shadow box in her home from a trip to England a few years before 2023. She was mesmerized by the castles there, especially in London, and wanted to bring that same magic and architectural charm into her own space as a reminder of the world's beauty and London's history and grace.",
+          "response_time": 3.572,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that Maria got the idea for the castle shadow box from England, matching the gold answer, and extra details do not detract from the correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did John receive a certificate for?",
+          "expected_answer": "completion of a university degree",
+          "ai_response": "John received a certificate for completing a university degree. This is confirmed by the conversation on March 26, 2023, where John shared a photo of a certificate of completion of a university degree and stated, \"I graduated last week (March 26, 2023)!\"",
+          "response_time": 3.113,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer states that John received a certificate for completing a university degree, which matches the gold answer's topic.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What areas is John particularly interested in for policymaking?",
+          "expected_answer": "education and infrastructure",
+          "ai_response": "John is particularly interested in policymaking areas focused on:\n\n1. **Education** – John is passionate about improving education in the community, ensuring good access to quality education, and has been involved in discussions and brainstorming about education reform (mentioned multiple times, including 2022-12-17, 2023-01-16, and throughout 2023).\n2. **Infrastructure** – John emphasizes the importance of updated infrastructure for a thriving community and is considering starting a community project regarding infrastructure (discussed in January 2023 and ongoing in 2023).\n3. **Support for Veterans** – John is passionate about making sure veterans are supported and valued, and is working on projects to support military veterans (mentioned 2023-05-20 and 2023-08-09).\n4. **Community Engagement and Improvement** – John is interested in spreading good vibes, making the community better, and addressing the needs and hopes of the neighborhood (mentioned 2023-08-09 and throughout 2023).\n5. **Access for Underserved Communities** – John is brainstorming ways to help underserved communities get access to education, mentorship, job training, and resume building (mentioned 2023-01-01 and 2023).\n6. **Using Technology for Good** – John is passionate about using tech for good in the community (mentioned 2023-04-18).\n\nThese interests are reflected in his ongoing community work, participation in meetings, and blogging about political issues.",
+          "response_time": 6.363,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes both education and infrastructure as areas of interest for John, matching the gold answer, even though it provides additional topics and details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did Maria participate in last weekend before April 10, 2023?",
+          "expected_answer": "a 5K charity run",
+          "ai_response": "Last weekend before April 10, 2023, Maria participated in a group volunteer event at a homeless shelter, where she helped organize a meal for the shelter residents.",
+          "response_time": 2.918,
+          "evaluation": {
+            "is_correct": false,
+            "reasoning": "The generated answer says Maria participated in a volunteer event at a homeless shelter, while the gold answer specifies a 5K charity run, so the activities do not match.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What event did John volunteer at last weekend?",
+          "expected_answer": "career fair at a local school",
+          "ai_response": "Last weekend (August 2, 2023), John volunteered at a community event to raise money for a good cause. The event included a 5K charity run to help out veterans and their families. John experienced a great turnout and was surrounded by many supportive people at this event.",
+          "response_time": 3.329,
+          "evaluation": {
+            "is_correct": false,
+            "reasoning": "The generated answer describes John volunteering at a community charity run for veterans, which is not the same event or topic as the career fair at a local school mentioned in the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did John do that put a strain on his wallet?",
+          "expected_answer": "His car broke down",
+          "ai_response": "John's car broke down on his way to work last Friday (relative to the conversation, likely in August 2023), and trying to get it fixed has been putting a strain on his wallet. This is specifically mentioned as a recent financial challenge for him.",
+          "response_time": 2.921,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that John's car broke down, which matches the gold answer and explains why this put a strain on his wallet, even though it includes extra details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "Where did John explore on a road trip last year?",
+          "expected_answer": "Pacific Northwest",
+          "ai_response": "John explored the coast and visited national parks in the Pacific Northwest on a road trip last year (2022). He specifically mentioned that the trip was for his daughter Sara's birthday and that it created many good memories.",
+          "response_time": 3.326,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that John explored the Pacific Northwest, which matches the gold answer, and extra details do not detract from correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What topic has John been blogging about recently?",
+          "expected_answer": "politics and the government",
+          "ai_response": "John has been blogging about politics and the government recently. Specifically, in 2023, he has focused on topics such as education reform and infrastructure development, aiming to raise awareness and start conversations to create positive change in the community. He has also mentioned researching policies and writing about his thoughts and ideas related to these areas.",
+          "response_time": 3.196,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that John has been blogging about politics and the government, which matches the gold answer, and the extra details do not detract from the correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "Why did John start blogging about politics and policies?",
+          "expected_answer": "raise awareness and start conversations to create positive change",
+          "ai_response": "John started blogging about politics and policies because he is passionate about making a positive impact in his community, particularly in the areas of education reform and infrastructure development. He finds it rewarding to work towards positive changes and a better future, and blogging has been a satisfying way for him to raise awareness, start conversations, and empower others to get involved (as mentioned in 2023). His experiences attending community meetings, talking to community leaders, and seeing firsthand the challenges faced by his neighborhood inspired him to take action and share his thoughts and ideas through blogging. John also mentioned that being around others who share his values and passion for activism in 2023 reminded him of the importance of trying to make a difference. Overall, his strong urge to serve his country and community, combined with his desire to improve education and infrastructure, motivated him to start blogging about politics and policies.",
+          "response_time": 4.278,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes that John started blogging to raise awareness, start conversations, and create positive change, which matches the gold answer, even though it provides additional details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What was the focus of John's recent research and writing on his blog?",
+          "expected_answer": "education reform and infrastructure development",
+          "ai_response": "John's recent research and writing on his blog have focused on politics, the government, education reform, and infrastructure development. He has been researching political policies, writing about his thoughts and ideas, and aiming to raise awareness and start conversations to create positive change in these areas. This focus is mentioned multiple times throughout 2023, with specific references to education and infrastructure as key topics for community growth (noted on 18 April 2023 and in subsequent conversations).",
+          "response_time": 3.42,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes both education reform and infrastructure development, matching the gold answer, and extra details do not detract from correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "How often does John work out with his family?",
+          "expected_answer": "Three times a week",
+          "ai_response": "John works out with his family several times a week. Specifically:\n\n- He mentioned on May 4, 2023, that he participates in an activity (working out) three times a week.\n- He also said on February 27, 2023, that they go to the park a few times a week for family bonding and letting the kids run around.\n- On June 12, 2023, he described spending an awesome day at the park with his family.\n- He started going to boot camps with his family on April 4, 2023.\n\n**Summary:**  \nJohn works out with his family about three times a week, often going to the park or participating in boot camps and other physical activities together.",
+          "response_time": 4.473,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer states that John works out with his family about three times a week, which matches the gold answer, despite providing additional details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "How has John's fitness improved since starting boot camps with his family?",
+          "expected_answer": "More energy, gains in strength and endurance",
+          "ai_response": "Since starting boot camps with his family on April 4, 2023, John has noticed several improvements in his fitness:\n\n- He and his family have had \"lots more energy\" and have seen \"gains in strength and endurance.\"\n- They are \"pushing ourselves and supporting each other,\" which has been \"super motivating.\"\n- His kids are \"getting excited about staying active.\"\n- There has been a \"real improvement in their confidence and skills,\" as observed in his children.\n\nOverall, John and his family have become more energetic, stronger, and more confident since beginning boot camps together.",
+          "response_time": 3.699,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes the key points from the gold answer—more energy, gains in strength and endurance—while also providing additional relevant details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What kind of food did Maria have on her dinner spread iwth her mother?",
+          "expected_answer": "Salads, sandwiches, homemade desserts",
+          "ai_response": "Maria had a dinner gathering with her mother at home on May 3, 2023. The dinner spread included:\n\n- Salads\n- Sandwiches\n- Homemade desserts\n\nMaria specifically mentioned that her favorite was the amazing banana split sundae, which she enjoys after a day of volunteering.",
+          "response_time": 3.242,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes all the key foods from the gold answer—salads, sandwiches, and homemade desserts—so it matches the topic and details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What activity did Maria and her mom do together in May 2023?",
+          "expected_answer": "Made dinner together",
+          "ai_response": "In May 2023, Maria and her mom had a family gathering at home for dinner. This took place on May 3, 2023.",
+          "response_time": 2.914,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer indicates that Maria and her mom had dinner together in May 2023, which aligns with the gold answer's activity of making dinner together, even though it adds extra context about a family gathering.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did Maria do to feel closer to a community and her faith?",
+          "expected_answer": "joined a nearby church",
+          "ai_response": "Maria took several actions to feel closer to her community and her faith:\n\n1. **Joined a nearby church**: Maria joined a church (event on May 5, 2023, mentioned May 6, 2023), which she found encouraging and uplifting.\n2. **Volunteered at a homeless shelter**: Maria started volunteering at a homeless shelter around August 2022 and continued through 2023. She found this work rewarding and fulfilling, and it helped her feel connected to others and her community.\n3. **Participated in community work with friends from church**: On August 4, 2023, Maria did community work with her friends from church, which she described as \"super rewarding.\"\n4. **Attended community events and meetings**: Maria attended community meetings (mentioned April 2, 2023) and participated in local events, arts and crafts, and family activities.\n5. **Organized and participated in charitable and fundraising events**: Maria helped organize meals for shelter residents, participated in group volunteer events, and planned fundraisers, all of which strengthened her sense of community.\n6. **Expressed a desire to make connections and laugh together**: Maria stated she wanted to make connections, laugh together, and take in nature's beauty, which she found uplifting and helped her feel part of the community.\n\nThese actions—joining a church, volunteering, participating in community and charitable events, and building connections—helped Maria feel closer to both her community and her faith.",
+          "response_time": 6.918,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes the key information that Maria joined a nearby church to feel closer to her community and faith, matching the gold answer, and provides additional relevant details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "Why did Maria join a nearby church recently?",
+          "expected_answer": "to feel closer to a community and her faith",
+          "ai_response": "Maria joined a nearby church on May 5, 2023. She did this because she wanted to feel closer to a community and her faith. As of May 6, 2023, she shared that joining the church had been a really great experience for her.",
+          "response_time": 2.941,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes the key reason that Maria joined the church: to feel closer to a community and her faith, matching the gold answer's topic.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did John host for the veterans in May 2023 as part of the project?",
+          "expected_answer": "a small party to share their stories",
+          "ai_response": "In May 2023, as part of his project to support veterans, John hosted a small party and invited veterans to share their stories. The event took place around May 20, 2023. At the party, veterans made connections, found camaraderie, and shared their experiences, which John described as heartwarming due to all the smiles and new friendships formed.",
+          "response_time": 4.025,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that John hosted a small party for veterans to share their stories in May 2023, matching the key information in the gold answer, with additional but relevant details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did John and the veterans do during the small party?",
+          "expected_answer": "share stories and make connections",
+          "ai_response": "During the small party organized by John on May 20, 2023, John invited some veterans to attend. At the party, the veterans shared their stories, made connections, and found camaraderie. John enjoyed seeing the veterans make new friendships, and the event was described as heartwarming with lots of smiles and positive interactions.",
+          "response_time": 3.167,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes both sharing stories and making connections, which matches the gold answer, and extra details do not detract from correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What emotions did John feel during the small party with the veterans?",
+          "expected_answer": "heartwarming",
+          "ai_response": "During the small party with the veterans on May 20, 2023, John felt joy, heartwarming emotions, and was moved by seeing the veterans make connections and form new friendships. He described the experience as \"awesome\" and specifically mentioned that \"all the smiles and new friendships made it really heartwarming.\" John also expressed that seeing everyone come together to support veterans made all the hard work worth it. Overall, his emotions were positive, including joy, fulfillment, and a sense of reward from bringing people together and supporting veterans.",
+          "response_time": 3.876,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes 'heartwarming' and expands on the positive emotions John felt, matching the gold answer and providing additional relevant details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What event is Maria getting ready for at the shelter on May 25, 2023?",
+          "expected_answer": "fundraiser",
+          "ai_response": "On May 25, 2023, Maria is getting ready for a fundraiser at the homeless shelter. She is busy organizing and preparing for this event, which is scheduled to take place on June 1, 2023. The goal of the fundraiser is to raise enough money to cover basic needs for the homeless. Additionally, Maria is planning a ring-toss tournament as part of the fundraiser.",
+          "response_time": 3.447,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that Maria is getting ready for a fundraiser at the shelter on May 25, 2023, which matches the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What does Maria need to spread the word about for the fundraiser for the volunteer shelter?",
+          "expected_answer": "chili cook-off",
+          "ai_response": "Maria needs to spread the word about the **chili cook-off** at the fundraiser for the homeless shelter. This is specifically mentioned in a conversation where Maria thanks John for his help and says, \"We need to get the word out about the chili cook-off at the fundraiser,\" and shares a poster for the event. The fundraiser is planned for May–June 2023, with Maria actively organizing and promoting it during that period.",
+          "response_time": 3.534,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that Maria needs to spread the word about the chili cook-off, which matches the gold answer, and any extra details do not detract from the correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What was the name of the pet that John had to say goodbye to on 3 June, 2023?",
+          "expected_answer": "Max",
+          "ai_response": "The name of the pet that John had to say goodbye to on 3 June, 2023, was Max. Max was a golden retriever who had been an important part of John's family for 10 years.",
+          "response_time": 3.122,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that the pet's name was Max, matching the gold answer, and any extra details do not detract from the correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "How long was Max a part of John's family?",
+          "expected_answer": "10 years",
+          "ai_response": "Max was a part of John's family for 10 years. This is mentioned multiple times, including: \"He was such an important part of our family for 10 years\" and \"had a pet named Max who was an important part of the family for 10 years.\"",
+          "response_time": 2.817,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that Max was a part of John's family for 10 years, matching the gold answer and providing supporting evidence from the text.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "How does John plan to honor the memories of his beloved pet?",
+          "expected_answer": "By considering adopting a rescue dog",
+          "ai_response": "John plans to honor the memories of his beloved pet Max by making progress in the coming weeks (from June 3, 2023) to ensure that they honor the memories of their loved ones. He expressed this intention directly to Maria, saying, \"Let's make sure we make progress in the coming weeks to ensure that we honor the memories of our loved ones.\" Additionally, John cherishes photos and memories of Max, reflecting on the joy and lessons Max brought to his family, such as unconditional love and loyalty. He is also considering adopting a rescue dog to bring love into the family and teach his kids responsibility and compassion, which can be seen as another way of honoring Max’s memory by continuing the legacy of love and care for animals.",
+          "response_time": 3.966,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes that John is considering adopting a rescue dog to honor his pet's memory, which matches the gold answer, even though it provides additional details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What important values does John want to teach his kids through adopting a rescue dog?",
+          "expected_answer": "Responsibility and compassion",
+          "ai_response": "John wants to teach his kids the following important values through adopting a rescue dog:\n\n1. **Unconditional love and loyalty** – John said, \"He really taught us the importance of unconditional love and loyalty. I want my kids to learn that too. Our bond with him was so special and something I cherish.\"\n2. **Responsibility and compassion** – John mentioned, \"We're considering adopting a rescue dog - for love and to teach our kids responsibility and compassion.\"\n3. **Peace and happiness** – John described thinking of the new pup as \"peaceful and happy,\" reflecting the positive emotional values he wants to pass on.\n4. **Joy and love** – John expressed that animals bring a lot of joy and love, and wants his kids to experience and learn from that.\n\nThese values are reinforced by John's reflections on his family's previous dog, Max, and his desire for his children to learn from the experience of caring for and loving a pet.",
+          "response_time": 4.022,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer explicitly mentions 'responsibility and compassion' as values John wants to teach his kids, which matches the gold answer, and extra details do not detract from correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What new activity did Maria start recently, as mentioned on 3 June, 2023?",
+          "expected_answer": "volunteering at a local dog shelter once a month",
+          "ai_response": "On 3 June 2023, Maria mentioned that she had just started doing aerial yoga.",
+          "response_time": 2.677,
+          "evaluation": {
+            "is_correct": false,
+            "reasoning": "The generated answer says Maria started aerial yoga, while the gold answer specifies volunteering at a local dog shelter; these are different activities.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did Maria say it was like being at the waterfall in Oregon?",
+          "expected_answer": "Like being in a fairy tale",
+          "ai_response": "Maria said that being at the waterfall in Oregon felt like she was in a fairy tale. She described the water as sounding calming and the surroundings as beautiful, calling the experience \"truly magical\" (shared on June 12, 2023).",
+          "response_time": 3.41,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer states that Maria felt like she was in a fairy tale at the waterfall, which matches the key information in the gold answer, and extra descriptive details do not detract from correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What does Maria say she feels when doing upside-down yoga poses?",
+          "expected_answer": "Free and light",
+          "ai_response": "Maria says that she enjoys upside-down yoga poses because they make her feel \"free and light.\" She specifically mentioned this on June 12, 2023, and has also expressed that she loves the freedom and connection brought by aerial yoga.",
+          "response_time": 3.326,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer states that Maria feels 'free and light' when doing upside-down yoga poses, which matches the gold answer, and extra details do not detract from correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What exciting news did Maria share on 16 June, 2023?",
+          "expected_answer": "joined a gym",
+          "ai_response": "On 16 June 2023, Maria shared an image showing a person walking on the beach with a surfboard.",
+          "response_time": 2.666,
+          "evaluation": {
+            "is_correct": false,
+            "reasoning": "The generated answer describes Maria sharing an image of someone on the beach with a surfboard, which does not mention or relate to joining a gym, the topic of the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What yoga activity has Maria been trying to improve her strength and endurance?",
+          "expected_answer": "kundalini yoga",
+          "ai_response": "Maria has been trying kundalini yoga to improve her strength and endurance. She mentioned this specifically in 2023, stating, \"I want to get stronger and improve my endurance, and I'm trying kundalini yoga.\"",
+          "response_time": 2.711,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies kundalini yoga as the activity Maria has been trying to improve her strength and endurance, matching the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did John recently get promoted to?",
+          "expected_answer": "assistant manager",
+          "ai_response": "John was recently promoted to assistant manager. This is confirmed by his message sharing excitement about becoming an assistant manager and sharing an image of a golden trophy on a black surface to mark the occasion. Maria also congratulated him on his promotion. The promotion was discussed in messages exchanged after June 16, 2023.",
+          "response_time": 3.396,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that John was promoted to assistant manager, matching the gold answer, and provides additional context without contradicting the key information.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What was one of the biggest challenges John faced in his journey to becoming assistant manager?",
+          "expected_answer": "self-doubt",
+          "ai_response": "One of the biggest challenges John faced in his journey to becoming assistant manager was dealing with self-doubt. Maria specifically mentioned imagining the hurdles John dealt with, \"especially the self-doubt,\" and John acknowledged that it \"wasn't easy,\" but having support and believing in himself really helped him out. This indicates that overcoming self-doubt and persevering through challenges were significant obstacles on his path to promotion (promotion date: 16 June 2023).",
+          "response_time": 3.563,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly identifies self-doubt as one of John's biggest challenges, matching the gold answer's topic.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "How does John describe the support he received during his journey to becoming assistant manager?",
+          "expected_answer": "having support at home and his own grit",
+          "ai_response": "John describes the support he received during his journey to becoming assistant manager as vital and deeply meaningful. He specifically mentions:\n\n- His family as his \"biggest support,\" always encouraging him, motivating him, and giving him strength through both good times and bad (mentioned multiple times, including 2023/07/03 and 2023/08/16).\n- He feels \"really lucky to have my family on this journey with me\" and that \"with their trust, we can do anything!\" (conversation, 2023/07/03).\n- He also highlights the importance of his team at work, describing them as \"super encouraging and inspiring\" and \"like a family – always supporting each other\" (conversation, 2023/07/31).\n- John expresses gratitude for Maria's support, saying \"Your support means a lot to me,\" and that her encouragement gives him motivation to keep going (multiple mentions, including 2023/08/03 and 2023/08/05).\n- Upon becoming assistant manager, John said, \"It feels like all the hard work I've put in has paid off now that I'm an assistant manager – it's like a stepping stone for bigger things\" (conversation, 2023/06/16).\n\nIn summary, John credits his family, his supportive team, and friends like Maria for providing encouragement, motivation, and strength throughout his journey to becoming assistant manager.",
+          "response_time": 5.276,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer covers the key point from the gold answer by emphasizing the support John received at home (from his family) and also adds detail about his own hard work and other sources of support, which aligns with the gold answer's focus on home support and grit.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What kind of event did John and his family attend in June 2023?",
+          "expected_answer": "live music event",
+          "ai_response": "In June 2023, John and his family attended a live music event on June 20, 2023, where they danced and had fun. Additionally, they participated in a community event with arts and crafts, fun activities, and games for families on June 17, 2023.",
+          "response_time": 3.129,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that John and his family attended a live music event in June 2023, matching the gold answer, even though it includes additional details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "Why did Maria need to help her cousin find a new place to live?",
+          "expected_answer": "Her cousin had to leave and find a new place in a hurry.",
+          "ai_response": "Maria needed to help her cousin find a new place to live because her cousin had to leave and find a new place in a hurry, which was very stressful for her cousin. The context does not specify the exact reason for the urgent move (such as eviction, safety, or other circumstances), but it is clear that the situation was difficult and required immediate action. This was mentioned by Maria on or before July 3, 2023, when she shared that things had been tough for her cousin lately, but that her cousin was making progress.",
+          "response_time": 4.04,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that Maria's cousin had to leave and find a new place in a hurry, which matches the key information in the gold answer, even though it provides additional context.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What event did John participate in to show support for veterans' rights?",
+          "expected_answer": "marching event",
+          "ai_response": "John participated in a marching event for veterans' rights on July 3, 2023. This event was specifically mentioned as a way for him to show support for veterans and their rights. Additionally, John set up a 5K charity run in his neighborhood in 2023 to help veterans and their families, and he worked on a petition to support military veterans during the week of May 13, 2023. However, the direct answer to the question is:\n\n**John participated in a marching event for veterans' rights on July 3, 2023, to show support for veterans' rights.**",
+          "response_time": 3.942,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that John participated in a marching event for veterans' rights, which matches the gold answer, and any extra details do not detract from the correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What inspired John to join the marching event for veterans' rights?",
+          "expected_answer": "Respect for the military and the desire to show support",
+          "ai_response": "John was inspired to join the marching event for veterans' rights because he has always been passionate about veterans and their rights. On May 13, 2023, he realized again how much veterans have done for everyone and wanted to show his appreciation in some way. This strong respect and desire to support veterans motivated him to participate in the event, as well as his ongoing commitment to making a difference for veterans and showing support for their sacrifices.",
+          "response_time": 3.737,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that John was motivated by respect and a desire to support veterans, which matches the key points in the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "How often does John get to see sunsets like the one he shared with Maria?",
+          "expected_answer": "At least once a week",
+          "ai_response": "John gets to see sunsets like the one he shared with Maria at least once a week. He mentioned on July 5, 2023: \"I see them at least once a week. It's a good way to disconnect, think, and find peace in this crazy world.\"",
+          "response_time": 3.125,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that John gets to see sunsets like the one he shared with Maria at least once a week, which matches the gold answer; extra details do not detract from correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What natural disaster affected John's old area on 7 July, 2023?",
+          "expected_answer": "Flood",
+          "ai_response": "On 7 July, 2023, John's old area was affected by a flood. The flood occurred on June 30, 2023, and caused significant damage, ruining lots of homes due to poor infrastructure. This event was discussed by John and Maria in early July 2023.",
+          "response_time": 3.405,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies that a flood affected John's old area on 7 July, 2023, matching the gold answer, despite providing additional details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "How did the flood impact the homes in John's old area?",
+          "expected_answer": "Lots of homes were ruined.",
+          "ai_response": "The flood that occurred on June 30, 2023, in John's old area had a significant impact: lots of homes were ruined. The area already had poor infrastructure, which contributed to the extent of the damage.",
+          "response_time": 3.251,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer states that lots of homes were ruined by the flood, which matches the key information in the gold answer, and extra details do not detract from correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What motivated Maria and John to discuss potential solutions for their community on 7 July, 2023?",
+          "expected_answer": "Flood in John's old area",
+          "ai_response": "Maria and John were motivated to discuss potential solutions for their community on 7 July, 2023, because John's old area had just been hit by a severe flood on June 30, 2023, which caused significant damage due to poor infrastructure. This event highlighted the urgent need for infrastructure improvements and reminded John of the importance of fixing things in their own community. Both Maria and John share a commitment to making a positive impact, improving living standards, and ensuring a safe environment, especially for children. Their ongoing collaboration and shared values around community improvement and support also motivated their discussion.",
+          "response_time": 4.454,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies the flood in John's old area as the motivation for their discussion, matching the gold answer's key point, and extra details do not detract from correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did Maria plan to do later on the evening of 7 July, 2023?",
+          "expected_answer": "have dinner with friends from the gym",
+          "ai_response": "On the evening of 7 July, 2023, Maria was going to have dinner with some friends from the gym.",
+          "response_time": 3.477,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that Maria planned to have dinner with friends from the gym on the evening of 7 July, 2023, matching the gold answer in both activity and participants.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What kind of activities did Maria do at the picnic with her church friends?",
+          "expected_answer": "played games like charades and a scavenger hunt",
+          "ai_response": "At the picnic with her church friends on July 10, 2023, Maria and her friends:\n- Sat under the trees\n- Played games\n- Ate yummy food\n\nThese activities are specifically mentioned as part of the picnic experience.",
+          "response_time": 2.871,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer mentions playing games at the picnic, which matches the key activity in the gold answer, even though it does not specify charades or a scavenger hunt.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What does John appreciate about the veteran's hospital visit?",
+          "expected_answer": "the resilience of the veterans and their inspiring stories",
+          "ai_response": "John visited the veteran's hospital on July 10, 2023. He appreciated meeting some amazing people there, which made him realize how much he has and the importance of giving back. The visit was eye-opening for him and deepened his appreciation for veterans and the need to support them. He also enjoyed throwing a small party where veterans shared their stories, made connections, and found camaraderie, which he found heartwarming due to all the smiles and new friendships formed.",
+          "response_time": 4.226,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer mentions John appreciating the veterans' stories, the connections made, and the inspiration he gained from meeting them, which aligns with the gold answer's focus on appreciating the resilience and inspiring stories of the veterans.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did John take away from visiting the veteran's hospital?",
+          "expected_answer": "appreciation for giving back",
+          "ai_response": "John visited the veteran's hospital on July 10, 2023. From this visit, he found the experience \"really eye-opening,\" met some amazing people, and it made him appreciate what he and his family have. The visit reinforced for John the importance of giving back and supporting veterans. It deepened his appreciation for veterans' sacrifices and highlighted the need to help and honor them.",
+          "response_time": 3.597,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that John gained an appreciation for giving back, which matches the gold answer, and provides additional relevant details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "Why did John feel inspired to join the military after the visit to the hospital?",
+          "expected_answer": "seeing the resilience of the veterans",
+          "ai_response": "John felt inspired to join the military after his visit to the veteran's hospital on July 10, 2023, because he met some amazing people there and heard inspiring and heartbreaking stories, particularly from an elderly veteran named Samuel. Witnessing the resilience of the veterans filled John with hope and reminded him why he wanted to join the military in the first place. The experience made him appreciate what he has and reinforced his desire to give back and support those who served.",
+          "response_time": 3.492,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer mentions John's inspiration coming from witnessing the resilience of veterans, which matches the key point in the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "In what activity did Maria and her church friends participate in July 2023?",
+          "expected_answer": "hiking",
+          "ai_response": "In July 2023, Maria and her church friends participated in the following activities:\n\n1. **Picnic (July 10, 2023):** Maria had a picnic with friends from church where they sat under trees, played games, and ate food.\n2. **Hiking (July 15, 2023):** Maria went hiking with her church friends, found the experience refreshing, and enjoyed being surrounded by supportive people and nature.\n\nThese are the specific activities Maria and her church friends took part in during July 2023.",
+          "response_time": 3.465,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer mentions that Maria and her church friends participated in hiking in July 2023, which matches the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What does John think about trying new classes at the yoga studio?",
+          "expected_answer": "Trying new classes is a fun way to switch up the exercise routine.",
+          "ai_response": "John is very positive about trying new classes at the yoga studio. He has expressed enthusiasm for mixing things up and pushing himself by trying new activities. On July 22, 2023, he told Maria, \"Trying new stuff is a great way to push yourself and mix things up. Let me know if you need any suggestions!\" He also encouraged Maria to try new classes, saying, \"Trying new classes sounds like a fun way to switch up your exercise routine - I should give it a go!\" John has personally started a weekend yoga class with a colleague and finds it awesome, mentioning that it makes him feel great both mentally and physically. He appreciates the positive effects of stretching and breathing and values instructors who create a welcoming environment. Overall, John sees trying new classes as rewarding, motivating, and beneficial for both physical and mental wellbeing.",
+          "response_time": 4.113,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that John finds trying new classes fun and a good way to switch up his exercise routine, matching the gold answer's key point.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "Which activity has John done apart from yoga at the studio?",
+          "expected_answer": "weight training",
+          "ai_response": "Apart from yoga at the studio, John has done kickboxing (mentioned in 2022 and again in later conversations as an activity giving him a lot of energy). He has also participated in boot camps with family (started 2023/04/04), and has expressed interest in trying rock climbing.",
+          "response_time": 3.185,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer lists other activities John has done at the studio, which matches the topic of the gold answer, even though it mentions kickboxing and boot camps instead of weight training.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What community service did Maria mention that she was involved in on 31 July, 2023?",
+          "expected_answer": "volunteered at a homeless shelter",
+          "ai_response": "On 31 July, 2023, Maria mentioned that she volunteered at the homeless shelter and dropped off baked goods that she had made. She described the experience as great and said it motivated her even more to help people.",
+          "response_time": 2.894,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer states that Maria volunteered at a homeless shelter on 31 July, 2023, which matches the gold answer's key information.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "How did Maria start volunteering at the homeless shelter?",
+          "expected_answer": "Witnessed a family struggling on the streets and reached out to the shelter",
+          "ai_response": "Maria started volunteering at the homeless shelter around August 2022. She was inspired to begin after witnessing a family struggling on the streets, which motivated her to reach out to the shelter and ask if they needed volunteers. The shelter said yes, and since then, volunteering there has been a fulfilling experience for her. Additionally, Maria was inspired by her aunt, who believed in volunteering and used to help Maria's family when they were struggling.",
+          "response_time": 3.735,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes the key information that Maria started volunteering after witnessing a family struggling on the streets and reached out to the shelter, matching the gold answer, with additional but not contradictory details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did John do the week before August 3, 2023 involving his kids?",
+          "expected_answer": "Had a meaningful experience at a military memorial",
+          "ai_response": "The week before August 3, 2023, John and his kids had a meaningful and impactful experience at a military memorial on July 27, 2023.",
+          "response_time": 2.839,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that John and his kids had a meaningful experience at a military memorial the week before August 3, 2023, matching the gold answer's key information.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "How did John describe his kids' reaction at the military memorial?",
+          "expected_answer": "awestruck and humbled",
+          "ai_response": "John described his kids' reaction at the military memorial (visited on July 27, 2023) as having a meaningful experience that really made an impact on them. He said, \"we had a meaningful experience at a military memorial. It really made an impact on my kids.\"",
+          "response_time": 3.375,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer conveys that the kids were deeply impacted and had a meaningful experience, which aligns with the gold answer's description of them being 'awestruck and humbled.'",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "Why does Maria think it's important for younger generations to visit military memorials?",
+          "expected_answer": "To remember and appreciate those who served",
+          "ai_response": "Maria thinks it's important for younger generations to visit military memorials because it helps them remember and appreciate those who served. Specifically, Maria said, \"Imagining visiting a military memorial makes me feel humble too. It's important for younger generations to remember and appreciate those who served.\" This shows that Maria values the act of remembering and honoring the sacrifices made by veterans, and believes that visiting memorials helps instill this appreciation and humility in younger people.",
+          "response_time": 3.325,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that Maria thinks visiting military memorials helps younger generations remember and appreciate those who served, which matches the gold answer's key point.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What does John believe is important for children regarding veterans?",
+          "expected_answer": "Teaching them to respect and appreciate those who served",
+          "ai_response": "John believes it is important for children to:\n\n1. **Learn about veterans and what they did for society** – Maria and John both discussed the importance of teaching kids about veterans and their contributions (conversation on 6 April 2023 and again in 2023).\n2. **Remember and appreciate those who served** – John expressed that he values younger generations remembering those who served and finds helping veterans important (profile facts).\n3. **Learn the importance of unconditional love and loyalty** – After the loss of his pet, John said, \"He really taught us the importance of unconditional love and loyalty. I want my kids to learn that too.\" He connects this lesson to the values he wants to pass on, which are also reflected in his work with veterans (conversation after June 3, 2023).\n4. **Respect and appreciate military service** – John expressed a preference for teaching respect and appreciation for military service (profile facts).\n\nIn summary, John believes it is important for children to learn about, remember, respect, and appreciate veterans and their service, and to understand values like unconditional love and loyalty.",
+          "response_time": 9.168,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer covers the importance of children respecting, appreciating, and learning about veterans, which matches the core idea of the gold answer, even though it provides additional details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What happened to John's job in August 2023?",
+          "expected_answer": "John lost his job at the mechanical engineering company.",
+          "ai_response": "In August 2023, John lost his job at a mechanical engineering company because the company \"tanked\" that year.",
+          "response_time": 4.443,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that John lost his job at a mechanical engineering company in August 2023, matching the key information in the gold answer, with only extra detail added.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What activity did Maria take up with her friends from church in August 2023?",
+          "expected_answer": "community work",
+          "ai_response": "In August 2023, Maria took up community work with her friends from church. Specifically, on August 4, 2023, she mentioned participating in community work with them and described it as \"super rewarding.\"",
+          "response_time": 3.254,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that Maria took up community work with her friends from church in August 2023, matching the gold answer and providing additional detail.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did John do to help his community last year in his hometown?",
+          "expected_answer": "Helped renovate a rundown community center.",
+          "ai_response": "Last year (2022), John helped renovate a rundown community center in his hometown. He put in a lot of work on the renovation, and observed that it had a positive impact on the community.",
+          "response_time": 3.154,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer states that John helped renovate a rundown community center last year in his hometown, which matches the key information in the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What cause did the 5K charity run organized by John support?",
+          "expected_answer": "veterans and their families",
+          "ai_response": "The 5K charity run organized by John supported veterans and their families. Specifically, it was held to help out veterans and their families, as mentioned by John on August 5, 2023: \"I set up a 5K charity run in our neighborhood. It was all for a good cause - to help out veterans and their families. We were able to raise some funds!\"",
+          "response_time": 3.277,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that the 5K charity run supported veterans and their families, matching the gold answer exactly, with additional but relevant details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "Who did John work with to raise awareness and funds for victims of domestic abuse?",
+          "expected_answer": "a local organization",
+          "ai_response": "John worked with a local organization that helps victims of domestic abuse to raise awareness and funds for victims of domestic abuse. This is supported by the context stating that John participated in fundraising and awareness events for domestic abuse victims and worked with a local organization helping domestic abuse victims. Specific dates are not provided for these activities, but they are mentioned as part of John's recent community involvement.",
+          "response_time": 3.491,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that John worked with a local organization to raise awareness and funds for victims of domestic abuse, matching the gold answer's key information.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What recognition did Maria receive at the homeless shelter in August 2023?",
+          "expected_answer": "a medal for volunteering",
+          "ai_response": "In August 2023, Maria received a medal from the homeless shelter in recognition of her volunteering. Specifically, on August 2, 2023, she was given a medal for her dedication and the difference she made at the shelter.",
+          "response_time": 3.163,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that Maria received a medal for volunteering at the homeless shelter in August 2023, matching the key information in the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What is the name of Maria's puppy she got two weeks before August 11, 2023?",
+          "expected_answer": "Coco",
+          "ai_response": "Maria's puppy that she got two weeks before August 11, 2023, is named Coco. Maria mentioned on July 28, 2023, that she got a puppy named Coco, and this aligns with the timeline of \"two weeks before August 11, 2023.\"",
+          "response_time": 3.431,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that Maria's puppy is named Coco and provides supporting details that align with the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What activity did John and Max enjoy together last summer?",
+          "expected_answer": "Camping",
+          "ai_response": "John and Max enjoyed going camping together last summer (around August 2022). During their camping trip, they hiked, swam, and made great memories. There is also a photo of John and Max sitting by a campfire from this trip.",
+          "response_time": 3.307,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that John and Max enjoyed camping together last summer, which matches the gold answer, and extra details do not detract from correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "How does John describe the camping trip with Max?",
+          "expected_answer": "Peaceful and awesome",
+          "ai_response": "John describes the camping trip with Max as a blast and a really peaceful and awesome experience. He mentions that they hiked, swam, and made great memories together. The trip took place in the summer of 2022. John also shared a photo from the trip showing a dog (Max) and a person sitting by a campfire, highlighting the joy and companionship of having Max with him during the camping adventure.",
+          "response_time": 3.451,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes 'peaceful and awesome' to describe the camping trip, which matches the gold answer, and extra details do not detract from correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "Why does John say he feels stuck and questioning his decisions and goals?",
+          "expected_answer": "Not feeling like making much of an impact",
+          "ai_response": "John says he feels stuck and is questioning his decisions and goals because he doesn't feel like he's making much of an impact in his current situation. Specifically, on March 6, 2023, John shared: \"Lately, I've been stumped about something. Don't feel like I'm making much of an impact here, which has me questioning my decisions and goals.\" This sense of doubt is tied to his desire to serve his country and community and to make a positive difference, but he sometimes struggles with self-doubt and wonders if his efforts are truly effective. This feeling is compounded by his passion for improving education and infrastructure, and his frustration with the state of these issues in his area. Despite these doubts, support from his family and friends, including Maria, helps him stay motivated.",
+          "response_time": 4.75,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes the key reason that John feels stuck and is questioning his decisions and goals because he doesn't feel like he's making much of an impact, which matches the gold answer; extra details do not detract from correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What is the name of Maria's second puppy?",
+          "expected_answer": "Shadow",
+          "ai_response": "Maria's second puppy is named Shadow. Maria adopted Shadow from a shelter on August 6, 2023, and described her as \"full of energy\" and \"a great addition\" to her life. Shadow gets along well with Maria's other dog, Coco.",
+          "response_time": 3.839,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that Maria's second puppy is named Shadow, which matches the gold answer, and the extra details do not detract from the correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "How is Maria's new puppy adjusting to its new home?",
+          "expected_answer": "doing great - learning commands and house training",
+          "ai_response": "Maria’s new puppy, named Coco, was adopted from a shelter on July 28, 2023. According to Maria’s updates:\n\n- Coco is adorable and brings Maria a lot of joy, always greeting her when she comes home.\n- It’s been an adjustment taking care of Coco, but Maria says it’s totally worth it.\n- Coco is learning commands and house training, and Maria reports that the little one is doing great with these.\n- Maria feels blessed to give Coco a home and finds joy in having her around.\n\nOverall, Coco is adjusting well to her new home, is happy, making progress with training, and has become a joyful presence in Maria’s life.",
+          "response_time": 4.002,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer covers the key points from the gold answer, stating that Maria's puppy is doing great, learning commands, and house training, while also providing additional context.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What is John currently doing as a volunteer in August 2023?",
+          "expected_answer": "mentoring students at a local school",
+          "ai_response": "In August 2023, John is volunteering as a mentor for a local school, helping students (he saw one of his students on August 6, 2023). He is also involved in community work, including supporting military veterans (organizing events, raising awareness, and coordinating support), and working with a local organization that helps victims of domestic abuse (participated in an event before August 9, 2023). Additionally, John is active in organizing and promoting community events, securing sponsors, and coordinating with city officials. He continues to focus on education reform, infrastructure development, and supporting underserved communities through various volunteer and advocacy efforts.",
+          "response_time": 3.548,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that John is mentoring students at a local school in August 2023, which matches the gold answer, even though it includes additional volunteer activities.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What activities does John's family enjoy doing together?",
+          "expected_answer": "going for hikes, hanging out at the park, having picnics, playing board games, having movie nights",
+          "ai_response": "John's family enjoys a variety of activities together, including:\n\n- **Outdoor activities:**  \n  - Going for hikes (mentioned multiple times, e.g., 2023/07/22, 2023/06/12)\n  - Hanging out at the park and letting the kids play on the playground and swings (e.g., 2023/06/12, 2023/02/27)\n  - Having picnics (e.g., picnic with wife and kids shared on 2023/08/13, 2023/07/10)\n  - Attending live music events (e.g., June 20, 2023)\n  - Participating in arts and crafts at community events (e.g., June 17, 2023)\n\n- **At home activities:**  \n  - Playing board games (photo shared, 2023/08/13)\n  - Having movie nights (mentioned 2023/08/13)\n  - Making dinner and sharing meals together (photos and mentions, e.g., 2023/08/13, 2023/06/03)\n\n- **Exercise and fitness:**  \n  - Working out together as a family (mentioned 2023/05/04)\n  - Attending boot camps with family (started 2023/04/04)\n  - Going to the park a few times a week for family bonding and letting the kids run around (mentioned 2023/03/06, 2023/02/27)\n\n- **Games and play:**  \n  - Climbing, sliding, and playing games (mentioned 2022/12/22)\n  - Creative activities, such as building cardboard forts (Maria referenced enjoying similar activities with siblings)\n\n- **Community and social events:**  \n  - Attending community events with fun activities and games for families (June 17, 2023)\n  - Participating in group activities like arts and crafts with family and friends\n\nIn summary, John's family enjoys spending quality time together through outdoor adventures, creative play, exercise, shared meals, and participating in community events.",
+          "response_time": 8.392,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes all the key activities from the gold answer (hiking, park, picnics, board games, movie nights) and adds extra detail, which is acceptable.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-41",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did the donations help John's community acquire on 16 August, 2023?",
+          "expected_answer": "a brand new fire truck",
+          "ai_response": "Based on all the provided context, there is no specific information indicating what the donations helped John's community acquire on 16 August, 2023. The context mentions John participated in a community event to raise money for a good cause on August 2, 2023, and that he is involved in fundraising and community improvement efforts, but it does not specify what was acquired with the donations as of August 16, 2023.",
+          "response_time": 3.245,
+          "evaluation": {
+            "is_correct": false,
+            "reasoning": "The generated answer does not mention the acquisition of a brand new fire truck, which is the key information in the gold answer.",
+            "error": null
+          }
+        }
+      ]
+    }
+  }
+}

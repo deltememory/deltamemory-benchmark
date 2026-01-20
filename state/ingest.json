@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-01-20T12:53:50.486Z",
+  "samples": {
+    "conv-26": {
+      "collection": "locomo-conv-26",
+      "dialogs": 419
+    },
+    "conv-30": {
+      "collection": "locomo-conv-30",
+      "dialogs": 369
+    },
+    "conv-41": {
+      "collection": "locomo-conv-41",
+      "dialogs": 663
+    },
+    "conv-42": {
+      "collection": "locomo-conv-42",
+      "dialogs": 629
+    },
+    "conv-43": {
+      "collection": "locomo-conv-43",
+      "dialogs": 680
+    },
+    "conv-44": {
+      "collection": "locomo-conv-44",
+      "dialogs": 675
+    },
+    "conv-47": {
+      "collection": "locomo-conv-47",
+      "dialogs": 689
+    },
+    "conv-48": {
+      "collection": "locomo-conv-48",
+      "dialogs": 681
+    },
+    "conv-49": {
+      "collection": "locomo-conv-49",
+      "dialogs": 509
+    },
+    "conv-50": {
+      "collection": "locomo-conv-50",
+      "dialogs": 568
+    }
+  }
+}

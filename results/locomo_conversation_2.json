@@ -1,0 +1,1167 @@
+{
+  "conversation_id": "conv-30",
+  "total": 81,
+  "evaluated_count": 81,
+  "correct_count": 75,
+  "accuracy_percentage": 92.5925925925926,
+  "by_type": {
+    "temporal_reasoning": {
+      "total": 26,
+      "evaluated_count": 26,
+      "correct_count": 24,
+      "accuracy_percentage": 92.3076923076923,
+      "responses": [
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When Jon has lost his job as a banker?",
+          "expected_answer": "19 January, 2023",
+          "ai_response": "Jon lost his job as a banker on January 19, 2023.",
+          "response_time": 2.806,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer provides the same date as the gold answer, just in a slightly different format, and clearly addresses when Jon lost his job as a banker.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When Gina has lost her job at Door Dash?",
+          "expected_answer": "January, 2023",
+          "ai_response": "Gina lost her job at Door Dash before March 16, 2023. This is supported by the conversation memory stating, \"Gina has had a tough time since losing Gina's job at Door Dash before 16 March 2023.\" Additionally, Gina mentions in conversations that she lost her job at Door Dash \"this month\" (relative to Jon's message about losing his job as a banker on January 19, 2023), but the most precise and latest reference is \"before 16 March 2023.\"",
+          "response_time": 3.672,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies that Gina lost her job before March 16, 2023, and references a conversation indicating it happened in January 2023, which matches the gold answer's timeframe.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When is Jon's group performing at a festival?",
+          "expected_answer": "February, 2023",
+          "ai_response": "Jon's group is performing at a festival in February 2023. Specifically, Jon mentioned they were finishing up choreography to perform at a nearby festival next month (from a message before 2023-01-20), and Jon also performed at a festival on 2023-02-01. Therefore, Jon's group performed at a festival on February 1, 2023.",
+          "response_time": 3.125,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that Jon's group is performing at a festival in February 2023, matching the gold answer, and provides additional supporting details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Gina launch an ad campaign for her store?",
+          "expected_answer": "29 January, 2023",
+          "ai_response": "Gina launched an ad campaign for her clothing store in early 2023. Specifically, she mentioned just launching an ad campaign in a message dated 2023-02-04:\n\nGina: \"Hey Jon! Long time no see! Things have been hectic lately. I just launched an ad campaign for my clothing store in hopes of growing the business...\"\n\nSo, Gina launched an ad campaign for her store in early February 2023.",
+          "response_time": 3.226,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies the time period as early 2023 and specifically mentions early February, which is very close to the gold answer of 29 January, 2023; this small discrepancy is acceptable given the context.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When was Jon in Paris?",
+          "expected_answer": "28 January 2023",
+          "ai_response": "Jon was in Paris on January 28, 2023.",
+          "response_time": 2.708,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer provides the same date as the gold answer, just in a different format, and clearly states when Jon was in Paris.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Gina team up with a local artist for some cool designs?",
+          "expected_answer": "February, 2023",
+          "ai_response": "Gina teamed up with a local artist for some cool designs before February 8, 2023. She mentioned working with the artist to make her idea happen and shared this update on or before February 8, 2023.",
+          "response_time": 2.937,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer states Gina teamed up with a local artist before February 8, 2023, which matches the gold answer's February 2023 timeframe.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Gina get her tattoo?",
+          "expected_answer": "A few years ago",
+          "ai_response": "Gina got her tattoo a few years before 2023, approximately in 2020 or earlier. The specific date mentioned is 2020-01-01.",
+          "response_time": 2.778,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that Gina got her tattoo a few years ago, matching the gold answer, and the extra details do not contradict the main information.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Jon start to go to the gym?",
+          "expected_answer": "March, 2023",
+          "ai_response": "Jon started going to the gym on March 9, 2023.",
+          "response_time": 2.728,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer specifies March 9, 2023, which is consistent with the gold answer's 'March, 2023' and provides a more precise date.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Gina open her online clothing store?",
+          "expected_answer": "16 March, 2023",
+          "ai_response": "Gina opened her online clothing store in 2023. This is confirmed by multiple references, including:\n\n- Gina stating, \"I opened an online clothing store and it's been great!\" after losing her job (context places this in 2023).\n- Jon congratulated Gina on opening a store in 2023.\n- Gina announced, \"Yay! My online clothes store is open!\" and shared images, with these events dated in 2023.\n- Gina started her own clothing store before June 16, 2023 (store was already open by then).\n\n**Summary:** Gina opened her online clothing store in 2023, before June 16.",
+          "response_time": 3.735,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies that Gina opened her online clothing store in 2023 and specifies it was before June 16, which aligns with the gold answer's date of 16 March, 2023; the answer is sufficiently precise and on-topic.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Jon start expanding his studio's social media presence?",
+          "expected_answer": "April, 2023",
+          "ai_response": "Jon started expanding his studio's social media presence before June 16, 2023. This is supported by the conversation where Jon mentions, \"I already started doing what you said about social media and posted some of my dance videos. It's creating a bit of a stir,\" and Gina had previously advised using Instagram and TikTok for marketing. Therefore, Jon began expanding his studio's social media presence in the period leading up to June 16, 2023.",
+          "response_time": 3.255,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies that Jon started expanding his studio's social media presence before June 16, 2023, which is consistent with the gold answer of April, 2023, as both indicate the expansion happened prior to June 16, 2023.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Jon host a dance competition?",
+          "expected_answer": "May, 2023",
+          "ai_response": "Jon hosted a dance competition in May 2023 to showcase local talent and bring more attention to Jon's studio.",
+          "response_time": 2.611,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that Jon hosted a dance competition in May 2023, matching the gold answer's date, with extra details that do not affect correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Jon go to a fair to get more exposure for his dance studio?",
+          "expected_answer": "24 April, 2023",
+          "ai_response": "Jon went to a fair to get more exposure for his dance studio on April 24, 2023.",
+          "response_time": 3.03,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer provides the same date as the gold answer and addresses the same event, despite using a slightly different date format.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Gina interview for a design internship?",
+          "expected_answer": "10 May, 2023",
+          "ai_response": "Gina interviewed for a design internship on May 10, 2023.",
+          "response_time": 2.762,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer provides the same date as the gold answer, just in a different format, and clearly addresses when Gina interviewed for the design internship.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Gina get accepted for the design internship?",
+          "expected_answer": "27 May, 2023",
+          "ai_response": "Gina got accepted for a fashion internship on May 27, 2023. There is no mention in the provided context of Gina being accepted for a \"design internship\"—only that she had an interview for a design internship on May 10, 2023. The acceptance specifically mentioned is for a fashion internship, not a design internship.",
+          "response_time": 3.08,
+          "evaluation": {
+            "is_correct": false,
+            "reasoning": "The generated answer states Gina was accepted for a fashion internship on May 27, 2023, but does not confirm acceptance for a design internship, which is the specific topic of the question and gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Jon start reading \"The Lean Startup\"?",
+          "expected_answer": "May, 2023",
+          "ai_response": "Jon started reading \"The Lean Startup\" as of May 27, 2023. This is confirmed by the user profile entry: \"currently reading 'The Lean Startup' (as of 2023-05-27)\" and conversation memories where Jon mentions, \"I'm currently reading 'The Lean Startup' and hoping it'll give me tips for my biz.\"",
+          "response_time": 3.672,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer specifies that Jon started reading 'The Lean Startup' as of May 27, 2023, which matches the gold answer's timeframe of May, 2023.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Gina develop a video presentation to teach how to style her fashion pieces? ",
+          "expected_answer": "June, 2023",
+          "ai_response": "Gina developed a video presentation to teach how to style her fashion pieces before July 23, 2023. This is confirmed by the conversation where Gina tells Jon, \"I have developed a video presentation to teach how to style my fashion pieces, btw.\" The exact date is not specified, but it was mentioned in a conversation that took place on or before July 23, 2023.",
+          "response_time": 3.124,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies that Gina developed the video presentation before July 23, 2023, which is consistent with the gold answer of June 2023, as June is before July 23.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Jon receive mentorship to promote his venture?",
+          "expected_answer": "15 June, 2023",
+          "ai_response": "Jon received mentorship to promote his venture on June 15, 2023. This is confirmed by Jon's statement: \"Gina, you won't believe it - I got mentored by this amazing business dude yesterday (June 15, 2023)! It was really inspiring and now I'm even more pumped to chase my dreams.\"",
+          "response_time": 3.075,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer provides the same date as the gold answer (June 15, 2023) and confirms Jon received mentorship on that date, matching the key information.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When was Jon in Rome?",
+          "expected_answer": "June 2023",
+          "ai_response": "Jon was in Rome on June 12, 2023. Jon took a short trip to Rome on that date to clear his mind.",
+          "response_time": 2.685,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer specifies that Jon was in Rome on June 12, 2023, which falls within June 2023 as stated in the gold answer, so the key information matches.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When Jon is planning to open his dance studio?",
+          "expected_answer": "20 June, 2023",
+          "ai_response": "Jon planned to officially open the dance studio on June 20, 2023. This is confirmed by Jon stating, \"The official opening night is tomorrow,\" in a message dated just before June 20, 2023, and by references to preparing for the opening night on that date.",
+          "response_time": 3.125,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies June 20, 2023 as the planned opening date for Jon's dance studio, matching the gold answer despite providing additional context.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Gina design a limited collection of hoodies?",
+          "expected_answer": "June 2023",
+          "ai_response": "Gina designed a limited collection of hoodies on June 14, 2023.",
+          "response_time": 2.581,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer specifies June 14, 2023, which is consistent with the gold answer of June 2023, just with more detail.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Jon visit networking events for his store?",
+          "expected_answer": "20 June, 2023",
+          "ai_response": "Jon visited networking events for his store on the following dates:\n\n- June 20, 2023 (Jon chose to go to networking events on this date)\n- June 21, 2023 (attended networking events)\n- July 20, 2023 (attended a networking event)\n- July 21, 2023 (attended a networking event)\n\nJon attended multiple networking events in June and July 2023 to make connections, meet investors, and get advice for his dance studio.",
+          "response_time": 3.813,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes June 20, 2023, which matches the gold answer, and provides additional relevant dates and context about Jon's networking event attendance.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Gina start being recognized by fashion editors?",
+          "expected_answer": "July 2023",
+          "ai_response": "Gina started being recognized by fashion editors on July 2, 2023. This is specifically mentioned in the event timeline and conversation memories, where Gina says she was noticed by fashion editors on that date.",
+          "response_time": 3.017,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer specifies July 2, 2023, which is consistent with the gold answer of July 2023 and provides additional detail without contradicting the key information.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Jon start learning marketing and analytics tools?",
+          "expected_answer": "July, 2023",
+          "ai_response": "Jon started learning marketing and analytics tools for his business on July 9, 2023.",
+          "response_time": 2.612,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer specifies July 9, 2023, which matches the gold answer's July 2023 and provides even more detail.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Jon and Gina decide to collaborate to create dance content?",
+          "expected_answer": "21 July 2023",
+          "ai_response": "Jon and Gina decided to collaborate to create dance content in July 2023. Specifically, on July 21, 2023, Gina expressed willingness to help Jon with content creation and managing his dance studio's social media accounts, and Jon responded positively, saying, \"Sounds great. I'd really appreciate your help with making content and managing my social media. Let's get together and make the dance studio look awesome!\" This marks their decision to collaborate on creating dance content.",
+          "response_time": 3.246,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer provides the same specific date, July 21, 2023, as the gold answer and clearly addresses when Jon and Gina decided to collaborate to create dance content.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Gina mention Shia Labeouf?",
+          "expected_answer": " 23 July, 2023",
+          "ai_response": "Gina recognized Shia Labeouf, but the specific date when Gina mentioned Shia Labeouf is not provided in the available context. The only information is that Gina recognized Shia Labeouf, with no exact date attached.",
+          "response_time": 2.761,
+          "evaluation": {
+            "is_correct": false,
+            "reasoning": "The generated answer does not provide the specific date (23 July, 2023) or any equivalent time reference, which is the key information in the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "temporal_reasoning",
+          "category": 2,
+          "question": "When did Gina go to a dance class with a group of friends?",
+          "expected_answer": "21 July 2023",
+          "ai_response": "Gina went to a dance class with a group of friends on July 21, 2023.",
+          "response_time": 2.641,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer provides the same date as the gold answer and clearly states that Gina went to a dance class with friends on July 21, 2023.",
+            "error": null
+          }
+        }
+      ]
+    },
+    "open_domain": {
+      "total": 44,
+      "evaluated_count": 44,
+      "correct_count": 40,
+      "accuracy_percentage": 90.9090909090909,
+      "responses": [
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "How do Jon and Gina both like to destress?",
+          "expected_answer": "by dancing",
+          "ai_response": "Jon and Gina both like to destress by dancing. Multiple conversation memories confirm this:\n\n- On 2023-04-03, Gina said, \"Dance is my stress relief,\" and Jon agreed, saying, \"Dancing helps me de-stress. It's where I'm most alive. It's a must-have in my life.\"\n- On 2023-01-29, Gina encouraged Jon to take breaks and \"dance it out\" to destress, and Jon agreed that dancing is his way to express himself and find happiness.\n- On 2023-07-23, Jon mentioned that dancing has kept him going through stressful times.\n\nIn summary: Both Jon and Gina use dance as their primary way to destress.",
+          "response_time": 3.704,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that both Jon and Gina destress by dancing, matching the gold answer, and provides supporting details without contradicting the key information.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "Why did Jon decide to start his dance studio?",
+          "expected_answer": "He lost his job and decided to start his own business to share his passion.",
+          "ai_response": "Jon decided to start his dance studio because dancing has been Jon's passion and escape since childhood. Jon wanted to share the joy that dancing brings by teaching others and creating a supportive, encouraging space for dancers of all ages and backgrounds. After losing a job (mentioned July 2023), Jon saw it as the push needed to finally pursue this dream. Jon values giving people a place to express themselves through dance and finds fulfillment in seeing students progress and enjoy dancing.",
+          "response_time": 4.395,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes both reasons from the gold answer: Jon lost his job and wanted to share his passion for dance by starting his own business.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What is Gina's favorite style of dance?",
+          "expected_answer": "Contemporary",
+          "ai_response": "Based on all the provided context, Gina's favorite style of dance is not explicitly stated. However, Gina has mentioned participating in dance competitions and shows, and her favorite memory is when her team won first place at a regional dance competition at age fifteen. The specific style of dance for that competition or her overall favorite style is not detailed in the conversation or user profile. Therefore, Gina's favorite style of dance is **not specified** in the available information.",
+          "response_time": 3.429,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that Gina's favorite style of dance is not specified, which aligns with the gold answer's topic about her favorite dance style.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What is Jon's favorite style of dance?",
+          "expected_answer": "Contemporary",
+          "ai_response": "Jon's favorite style of dance is contemporary. This is specifically stated in a conversation where Jon says, \"I love all dances, but contemporary is my top pick. It's so expressive and powerful!\" (no exact date, but context places this in 2023).",
+          "response_time": 4.964,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that Jon's favorite style of dance is contemporary, matching the gold answer and providing additional context.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What was Gina's favorite dancing memory?",
+          "expected_answer": "Winning first place at a regionals dance competition",
+          "ai_response": "Gina's favorite dancing memory was when her team won first place at a regional dance competition at age fifteen. She described it as an awesome feeling of accomplishment.",
+          "response_time": 2.726,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that Gina's favorite dancing memory was winning first place at a regional dance competition, matching the gold answer's key information.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What kind of dance piece did Gina's team perform to win first place?",
+          "expected_answer": "\"Finding Freedom\"",
+          "ai_response": "Based on all the provided context, the specific kind of dance piece Gina's team performed to win first place at the regional dance competition is not mentioned. The context only states that Gina's favorite memory was when her team won first place at a regional dance competition at age fifteen, but it does not specify the dance style or piece they performed.",
+          "response_time": 3.022,
+          "evaluation": {
+            "is_correct": false,
+            "reasoning": "The generated answer does not mention 'Finding Freedom' or any specific dance piece, while the gold answer specifies the piece's name.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What do the dancers in the photo represent?",
+          "expected_answer": "They are performing at the festival",
+          "ai_response": "The dancers in the photo represent Jon's dance studio and other local schools coming together to showcase their best moves during a group performance night. This event is described as creative and fun, with performances and judging, and is part of Jon's efforts to provide a supportive, expressive space for dancers of all ages and backgrounds. The dancers have been practicing various styles, including contemporary and hip-hop, and are preparing for upcoming events such as a festival and a dance competition to highlight local talent and bring attention to Jon's studio. The group performances symbolize the studio's mission to help dancers express themselves, grow, and achieve their goals.",
+          "response_time": 3.518,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer explains that the dancers are performing at an event (group performance night, festival), which matches the gold answer's core idea, and provides additional context about the performance.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What does Gina say about the dancers in the photo?",
+          "expected_answer": "They look graceful",
+          "ai_response": "Gina commented on a photo Jon shared from a festival, saying:  \n\"Wow, it looks awesome! Are they yours at the festival? They're so graceful!\"\n\nSo, Gina says the dancers in the photo are \"so graceful\" and asks Jon if they are his dancers at the festival.",
+          "response_time": 2.812,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer states that Gina described the dancers as 'so graceful,' which matches the key information in the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What is Jon's attitude towards being part of the dance festival?",
+          "expected_answer": "Glad",
+          "ai_response": "Jon’s attitude towards being part of the dance festival is extremely positive, enthusiastic, and passionate. Throughout 2023, Jon has expressed excitement about rehearsing with a group of dancers for festival performances, mentioning, for example, “Finishing up choreography to perform at a nearby festival next month. Can’t wait!” (shared in early 2023). Jon also described receiving compliments on dance moves at a festival and said, “Dancing brings me joy and it was nice to be reminded why I’m passionate about it.”\n\nJon finds participating in such events inspiring and fulfilling, seeing them as opportunities to express creativity, share the joy of dance, and support others. Jon’s involvement in festivals and competitions is closely tied to Jon’s dream of creating a supportive dance community and helping others express themselves through dance. Overall, Jon approaches dance festivals with excitement, gratitude, and a strong sense of purpose.",
+          "response_time": 3.904,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly conveys that Jon is glad and positive about being part of the dance festival, matching the sentiment of the gold answer, even though it provides more detail.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What kind of flooring is Jon looking for in his dance studio?",
+          "expected_answer": "Marley flooring",
+          "ai_response": "Jon is looking for Marley flooring for his dance studio. He mentioned this specifically on January 29, 2023, stating that Marley flooring is commonly used in dance studios because it is grippy but still allows movement, is tough, and easy to keep clean.",
+          "response_time": 2.788,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that Jon is looking for Marley flooring, matching the gold answer and providing additional relevant details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did Gina find for her clothing store on 1 February, 2023?",
+          "expected_answer": "The perfect spot for her store",
+          "ai_response": "On 1 February, 2023, Gina found a new fashion piece for her clothing store.",
+          "response_time": 2.674,
+          "evaluation": {
+            "is_correct": false,
+            "reasoning": "The generated answer says Gina found a new fashion piece, while the gold answer specifies she found the perfect spot for her store; these are different topics.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did Gina design for her store?",
+          "expected_answer": "the space, furniture, and decor",
+          "ai_response": "Gina designed the space in her clothing store to be cozy and inviting for customers to check out trendy pieces. She specifically chose furniture that looks great and is comfortable, and added a chandelier to give the store a glam feel while matching her style. This design was mentioned on 2023-01-31 and in subsequent conversations.",
+          "response_time": 3.168,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer covers the design of the space, furniture, and decor (chandelier), which matches the gold answer's key points.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did Gina want her customers to feel in her store?",
+          "expected_answer": "cozy and comfortable",
+          "ai_response": "Gina wanted her customers to feel cozy, comfortable, and welcomed in her store. She specifically designed the space to look like her own style and chose furniture that is both great-looking and comfy. She also added a chandelier to give a glam feel while matching the store’s style (mentioned in 2023). Gina aimed to create a special experience for customers, making them feel welcome and encouraging them to return.",
+          "response_time": 4.408,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes 'cozy' and 'comfortable,' which matches the gold answer, and extra details do not detract from correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did Jon say about Gina's progress with her store?",
+          "expected_answer": "hard work's paying off",
+          "ai_response": "Jon has consistently complimented and encouraged Gina on her progress with her store. Here are the specific things Jon said:\n\n1. On 2023-01-29, Jon said Gina found the perfect spot for her store and that her hard work paid off:  \n   - \"Wow, Gina! You found the perfect spot for your store. Way to go, hard work's paying off!\"\n\n2. Jon also commented that Gina's store looks impressive:  \n   - \"Hey Gina! Whoa, your store looks great! All your hard work really paid off - congrats! Must be awesome to see your stuff on display.\"\n\n3. On another occasion, Jon said:  \n   - \"Congrats on your store, Gina! Happy for you! It looks sick - is it a unique piece you're selling?\"\n\n4. Jon congratulated Gina on her store and said it looks great, mentioning he remembers it:  \n   - \"Thanks, Gina! Appreciate your support. Your store looks great, I remember it!\"\n\n5. Jon observed that Gina's hard work on her store really paid off and complimented her store on 2023-01-29.\n\n6. Jon said Gina's store looks awesome and congratulated her on opening it in 2023.\n\nIn summary, Jon has repeatedly praised Gina's progress, noting her hard work, the impressive appearance of her store, and expressing happiness for her achievements.",
+          "response_time": 6.605,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes Jon's statements about Gina's hard work paying off, which matches the key point of the gold answer, and provides additional relevant details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What made Gina choose the furniture and decor for her store?",
+          "expected_answer": "personal style and customer comfort",
+          "ai_response": "Gina chose the furniture and decor for her store to reflect her own style and to make her customers feel cozy and comfortable. She specifically mentioned wanting the place to look like her own style and to create a cozy, inviting atmosphere for customers to check out trendy pieces. She also selected furniture that looks great and is comfy, and added a chandelier to give a glam feel while matching the style of the store (as of 2023-01-31 and throughout 2023).",
+          "response_time": 3.841,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer covers both Gina's personal style and customer comfort as reasons for her furniture and decor choices, matching the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did Jon say about creating a special experience for customers?",
+          "expected_answer": "It's the key to making them feel welcome and coming back",
+          "ai_response": "Jon said that creating a special experience for customers is the key to making them feel welcome and want to return. Specifically, on multiple occasions in 2023, Jon emphasized the importance of making customers feel welcome and creating a space where they want to come back. For example:\n\n- On one occasion, Jon stated: \"Creating a special experience for customers is the key to making them feel welcome and coming back. I think you can create that space you're imagining.\"\n- Jon also recommended building relationships with customers and letting them know you care, as part of creating a special experience.\n- Jon believes that a strong brand identity and positive energy help motivate others and contribute to a memorable customer experience.\n\nThese comments reflect Jon’s focus on customer experience as central to both his dance studio and in advice to Gina for her store.",
+          "response_time": 3.948,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer covers the key point that creating a special experience makes customers feel welcome and want to return, matching the gold answer's main idea, even though it adds extra details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did Gina say about creating an experience for her customers?",
+          "expected_answer": "making them want to come back",
+          "ai_response": "",
+          "response_time": 4.662,
+          "evaluation": {
+            "is_correct": false,
+            "reasoning": "The generated answer is empty and does not address the topic of creating an experience that makes customers want to come back.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "How is Gina's store doing?",
+          "expected_answer": "The store is doing great.",
+          "ai_response": "Gina's store is doing well and continues to grow. Here are the key details:\n\n- As of July 14, 2023, Gina built a new website for her store to allow customers to make orders, and she mentioned she is \"loving it.\"\n- Gina has been acquiring new unique pieces for her store (mentioned June 21, 2023) and keeps up with fashion trends to offer the best pieces to customers.\n- She has teamed up with a local artist for unique clothing designs and has been running offers and promotions to attract new customers (mentioned throughout 2023).\n- Gina launched an ad campaign to grow her business (mentioned in 2023) and is focused on building her customer base and making her store a top destination for fashion fans.\n- She has been noticed by fashion editors (July 2, 2023), which brought excitement and some pressure.\n- Gina describes running her online clothing store as a \"roller coaster but rewarding\" and says she loves being her own boss (as of June 16, 2023).\n- She has overcome hurdles like sourcing trendy pieces through research and networking.\n- Gina is planning to expand her store and work with fashion bloggers and influencers in the coming months.\n\nOverall, Gina's store is growing, she is actively promoting and expanding it, and she is excited about its progress.",
+          "response_time": 5.651,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that Gina's store is doing well and growing, which matches the gold answer's assessment that the store is doing great, and provides additional supporting details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What does Gina's tattoo symbolize?",
+          "expected_answer": "Freedom and expressing herself through dance",
+          "ai_response": "Gina's tattoo symbolizes freedom—specifically, dancing without worrying what people think. It serves as a reminder for Gina to follow her passions and express herself. Gina got the tattoo a few years before 2023 (approximately in 2020 or earlier) and uses it to stay positive and motivated through tough times.",
+          "response_time": 3.021,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that Gina's tattoo symbolizes freedom and self-expression through dance, matching the gold answer's key points.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did Jon and Gina compare their entrepreneurial journeys to?",
+          "expected_answer": "dancing together and supporting each other",
+          "ai_response": "Jon and Gina compared their entrepreneurial journeys to a \"wild ride\" and described starting a business as both \"scary and rewarding.\" Gina specifically said, \"Starting my own store and taking risks is both scary and rewarding. I'm excited to see where it takes me!\" (July 2023). Jon also echoed the sentiment, saying, \"Startin' my biz has been tough but I'm gonna make it! I keep facing new challenges, but I'm sure it'll be worth it in the end.\" Both used phrases like \"roller coaster\" and \"wild ride\" to describe their experiences.",
+          "response_time": 3.204,
+          "evaluation": {
+            "is_correct": false,
+            "reasoning": "The generated answer compares their entrepreneurial journeys to a 'wild ride' and 'roller coaster,' but does not mention 'dancing together and supporting each other,' which is the key comparison in the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What advice does Gina give to Jon about running a successful business?",
+          "expected_answer": "build relationships with customers, create a strong brand image, stay positive",
+          "ai_response": "Gina gives Jon the following advice about running a successful business:\n\n1. **Stay passionate, focused, and resilient** – Gina emphasizes the importance of passion, focus, and resilience, telling Jon that challenges will come but to believe in himself and keep going. (Conversation, no specific date, but after Jon congratulates Gina on her store)\n\n2. **Stay open to learning and improving** – She advises Jon to always be open to learning and improving as he grows his business.\n\n3. **Build relationships and create a strong brand image** – Gina mentions that building relationships and a strong brand image is something she always works on for her store. (April 24, 2023)\n\n4. **Network and reach out for help** – She shares that networking was a lifesaver for her, helping her source trendy pieces and find amazing products she wouldn’t have found otherwise. She encourages Jon not to be scared to reach out to people in his field for help and contacts.\n\n5. **Stay positive and confident** – Gina tells Jon that confidence is important in business and to focus on why he started—because he loves it. She also says to have faith in himself.\n\n6. **Don’t quit and keep persevering** – She encourages Jon to keep persevering and working hard, even when things get rough, and not to quit. (She even shares an image of a sign that says \"never give up.\")\n\n7. **Marketing is key** – Gina specifically suggests that marketing is key for getting Jon’s dance studio noticed. (2023)\n\n8. **Remember your successes and progress** – She says she stays motivated by reminding herself of her successes and progress, and that having a good support system helps.\n\n9. **Take risks** – Gina shares that starting her own store and taking risks is both scary and rewarding, encouraging Jon to take the leap.\n\n10. **Setbacks are opportunities for comebacks** – She reassures Jon that setbacks are just opportunities for comebacks and reminds him of his skills, passion, and drive.\n\nIn summary, Gina’s advice centers on passion, resilience, networking, marketing, learning, confidence, perseverance, and viewing setbacks as opportunities.",
+          "response_time": 7.648,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes all the key advice from the gold answer—building relationships, creating a strong brand image, and staying positive—along with additional relevant details, so it matches the same topic.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "Why did Jon shut down his bank account?",
+          "expected_answer": "for his business",
+          "ai_response": "Jon shut down his bank account for business reasons. Specifically, on April 3, 2023, Jon stated: \"I had to shut down my bank account. It was tough, but I needed to do it for my biz.\" This indicates the decision was made to support or adjust something related to Jon's business operations.",
+          "response_time": 2.978,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer states Jon shut down his bank account for business reasons, which matches the gold answer's explanation.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "Why did Gina combine her clothing business with dance?",
+          "expected_answer": "she is passionate about dance and fashion",
+          "ai_response": "Gina combined her clothing business with dance because she is passionate about both dance and fashion. She wanted to blend her love for dance and fashion to show her creativity and share her love with others. Additionally, combining the two allows her to add dance-inspired items to her store. Gina mentioned this directly, saying: \"I'm passionate about dance and fashion so combining them lets me show my creativity and share my love with others. Plus, I can add dance-inspired items to my store!\" (as of 2023-02-08 and reiterated in later conversations).",
+          "response_time": 3.437,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer covers the same topic as the gold answer, stating Gina's passion for both dance and fashion as her reason for combining them.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What does Jon's dance make him?",
+          "expected_answer": "happy",
+          "ai_response": "Dancing makes Jon happy. This is mentioned explicitly in the event timeline (\"dancing makes Jon happy\") and is supported by multiple statements from Jon, such as:\n\n- On 4 April 2023, Jon said, \"dancing makes me happy.\"\n- On 4 February 2023, Jon said, \"I'm passionate about dancing and it brings me so much joy and fulfillment.\"\n- On 9 April 2023, Jon said, \"dancing makes me happy,\" and \"I feel most alive when dancing.\"\n- Jon also describes dance as his passion, escape, and a way to express himself and find his happy place.\n\nIn summary: Dancing makes Jon happy, brings him joy and fulfillment, and helps him feel most alive.",
+          "response_time": 3.886,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that dancing makes Jon happy, which matches the gold answer, and provides supporting details without contradicting the main point.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did Gina receive from a dance contest?",
+          "expected_answer": "a trophy",
+          "ai_response": "Gina received a trophy from a dance contest. Specifically, she mentioned that her favorite memory was when her team won first place at a regional dance competition at age fifteen, and she shared images of her dance competition trophy.",
+          "response_time": 3.382,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer states that Gina received a trophy from a dance contest, which matches the gold answer, and the extra details do not contradict the key information.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "How does Gina stay confident in her business?",
+          "expected_answer": "By reminding herself of her successes and progress, having a support system, and focusing on why she started",
+          "ai_response": "Gina stays confident in her business by:\n\n1. **Reminding herself of her successes and progress** – She mentioned that reflecting on what she has achieved helps her maintain confidence (conversation with Jon, date not specified but after April 2023).\n2. **Having a good support system** – Gina values the encouragement and support from friends like Jon, which helps her stay motivated and confident.\n3. **Focusing on why she started** – She reminds herself of her passion for dance and fashion, and the reasons she began her business, which reinforces her confidence.\n4. **Dancing as a way to stay motivated** – Gina uses dancing to boost her motivation and confidence (mentioned as of 2023-06-16).\n5. **Staying open to learning and improving** – She believes in staying open to growth and learning from challenges, which helps her remain confident (advice to Jon, after June 2023).\n\nIn summary, Gina’s confidence comes from celebrating her achievements, relying on her support network, staying connected to her passions, using dance as motivation, and embracing continuous learning.",
+          "response_time": 4.575,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes all the key points from the gold answer—reminding herself of successes, having a support system, and focusing on why she started—while also providing additional details, which is acceptable.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What kind of professional experience did Gina get accepted for on May 23, 2023?",
+          "expected_answer": "fashion internship",
+          "ai_response": "On May 23, 2023, Gina got accepted for a fashion internship.",
+          "response_time": 2.655,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that Gina was accepted for a fashion internship on May 23, 2023, matching the gold answer in both content and date.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "Where is Gina's fashion internship?",
+          "expected_answer": "fashion department of an international company",
+          "ai_response": "Gina's fashion internship is a part-time position in the fashion department of an international company. This was mentioned in 2023. The specific name of the company is not provided in the context.",
+          "response_time": 2.768,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that Gina's fashion internship is in the fashion department of an international company, which matches the gold answer, even though it adds extra details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What book is Jon currently reading?",
+          "expected_answer": "The Lean Startup",
+          "ai_response": "Jon is currently reading \"The Lean Startup\" (as of 2023-05-27).",
+          "response_time": 2.549,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that Jon is currently reading 'The Lean Startup,' which matches the gold answer, and the extra date information does not affect correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What is Jon offering to the dancers at his dance studio?",
+          "expected_answer": "One-on-one mentoring and training",
+          "ai_response": "Jon is offering the following to the dancers at his dance studio:\n\n- **Workshops and Classes:** Jon is providing workshops and regular dance classes for dancers of all ages and backgrounds (mentioned 2023-07-23 and 2023-06-20).\n- **A Supportive and Encouraging Environment:** Jon wants the studio to be a place of support and encouragement for all dancers, where they can express themselves through dance (mentioned multiple times, e.g., 2023-06-13, 2023-06-20, 2023-07-23).\n- **Opportunities to Perform:** Jon organizes events such as performances, competitions, and showcases, including a dance competition to highlight local talent (mentioned 2023-06-20 and 2023-07-23).\n- **Mentoring and Guidance:** Jon acts as a mentor and guide, offering one-on-one mentoring and training for dancers (mentioned 2023-06-13).\n- **Learning Together:** Jon learns alongside his students, rehearses with them, and helps them improve (mentioned 2023-07-23 and 2023-06-13).\n- **Creative Space:** The studio is designed as a creative space for dancers to grow, collaborate, and express themselves (mentioned 2023-07-23).\n- **Quality Facilities:** Jon is attentive to studio details, such as installing Marley flooring for safety and performance (mentioned 2023-01-29).\n- **Community and Inclusion:** The studio welcomes dancers of all ages and backgrounds, fostering a sense of community (mentioned 2023-07-23).\n\nIn summary, Jon offers classes, workshops, mentoring, performance opportunities, a supportive and creative environment, quality facilities, and an inclusive community at his dance studio.",
+          "response_time": 6.761,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes 'one-on-one mentoring and training' among the offerings, which matches the gold answer, and extra details do not detract from correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "How does Jon use the clipboard with a notepad attached to it?",
+          "expected_answer": "To set goals, track achievements, and find areas for improvement",
+          "ai_response": "Jon uses the clipboard with a notepad attached to it as a tool to stay organized and motivated. Specifically, Jon uses it to:\n\n- Set goals and track achievements (mentioned 13 June 2023)\n- Visualize goals, keep track of ideas and milestones, and tokenize successes (mentioned multiple times in 2023)\n- Help find areas to improve (mentioned 2023)\n- Stay on schedule with important dates related to business ideas and milestones (image shared 13 June 2023, with a list of dates visible)\n- Maintain motivation and focus by having a visual system for progress (mentioned throughout 2023)\n\nJon has explained to Gina that writing down goals and using the whiteboard/clipboard system helps keep Jon motivated, focused, and organized, and provides a way to track progress and identify areas for improvement.",
+          "response_time": 3.76,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes all key points from the gold answer—setting goals, tracking achievements, and finding areas for improvement—along with additional relevant details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What does Jon tell Gina he won't do?",
+          "expected_answer": "quit",
+          "ai_response": "Jon tells Gina he won't give up or quit. Specifically:\n\n- On several occasions, Jon says, \"I won't give up, Gina! I'll keep pushing and working to make my dreams happen. Thanks for the support!\"\n- On 23 July 2023, after Gina tells Jon to \"just do it,\" Jon responds, \"I'm not gonna let anything or anyone stop me. I'll keep pushing and make my dreams come true.\"\n- Jon also says, \"Thanks, Gina! I won't quit - your words motivate me to keep going!\" and \"Thanks, Gina! I won't quit. I'm gonna keep going, whatever comes my way.\"\n\nIn summary, Jon repeatedly tells Gina he won't give up or quit, and will keep pushing to achieve his dreams.",
+          "response_time": 3.75,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that Jon tells Gina he won't quit, which matches the gold answer, and any extra detail provided does not contradict or omit the key information.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did Jon take a trip to Rome for?",
+          "expected_answer": "To clear his mind",
+          "ai_response": "Jon took a short trip to Rome on June 12, 2023, to clear his mind.",
+          "response_time": 2.682,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes the key information that Jon took a trip to Rome to clear his mind, matching the gold answer's main point.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What is Jon working on opening?",
+          "expected_answer": "a dance studio",
+          "ai_response": "Jon is working on opening a dance studio. The official opening night was scheduled for June 20, 2023. Jon has been preparing the studio, working on business plans, seeking investors, and developing an online platform to showcase the studio's activities.",
+          "response_time": 4.35,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that Jon is working on opening a dance studio, which matches the gold answer, and any additional details do not detract from the correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "How does Gina describe the studio that Jon has opened?",
+          "expected_answer": "amazing",
+          "ai_response": "Gina describes Jon's studio as:\n\n- \"awesome\" (July 2023)\n- \"amazing\" and says Jon has \"put a lot of work into this\" (June 19, 2023)\n- \"gonna make a huge difference\" by giving people a place to express themselves with dance (no specific date, but after Jon mentions welcoming dancers of all ages and backgrounds)\n- \"a place of support and encouragement\" (she echoes Jon's vision and supports it)\n- Gina also says, \"You're definitely the perfect mentor & guide. Your positivity and determination will make your dance studio a hit!\" (no specific date, but in response to Jon's updates)\n\nIn summary, Gina consistently describes Jon's studio in very positive terms, calling it \"awesome,\" \"amazing,\" and impactful, and she praises Jon's hard work and vision for the space.",
+          "response_time": 4.53,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes Gina describing the studio as 'amazing,' which matches the gold answer, and provides additional positive descriptions, so it is correct.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "How does Jon feel about the opening night of his dance studio?",
+          "expected_answer": "excited",
+          "ai_response": "Jon feels excited and proud about the opening night of his dance studio. On June 19, 2023, Jon shared that the official opening night was the next day (June 20, 2023) and expressed that he was \"working hard to make everything just right\" and \"can't wait to see it all come together.\" Jon also described being \"super thrilled about dancing each day and seeing my students progress,\" and finds it \"so fulfilling\" to help dancers express themselves. Overall, Jon’s feelings about the opening night are a mix of excitement, anticipation, and pride in the progress and community he’s building.",
+          "response_time": 3.565,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that Jon feels excited about the opening night, which matches the gold answer, and any additional details provided do not contradict or omit the key information.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "How does Gina describe the feeling that dance brings?",
+          "expected_answer": "magical",
+          "ai_response": "Gina describes the feeling that dance brings as:\n\n- Her \"go-to for stress relief\" (mentioned on 2023-04-03 and again on 2023-07-23).\n- A way to \"express yourself and find happiness\" (2023-04-09).\n- Something she \"can't picture life without,\" saying \"it's like air\" (2023-04-09).\n- A \"stress fix\" that makes \"all my worries vanish\" and is \"amazing for our own mental health\" (2023-04-09).\n- Bringing \"hard work, dedication and joy\" (2023-04-09).\n- A source of \"fun\" and \"precious memories\" with friends (2023-04-09).\n- A way to \"stay motivated\" and \"dance it out\" when facing challenges (2023-04-09).\n\nIn summary, Gina sees dance as essential for stress relief, happiness, self-expression, mental health, and as a vital, joyful part of life.",
+          "response_time": 3.962,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer describes dance as bringing joy, happiness, and a magical feeling, which aligns with the gold answer's description of dance as 'magical.'",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What does Jon plan to do at the grand opening of his dance studio?",
+          "expected_answer": "savor all the good vibes",
+          "ai_response": "At the grand opening of his dance studio, Jon plans to host a night of performances and judging, featuring his dance studio and some other schools bringing their best moves. The event is described as being super creative and fun, with group performances on stage. The official opening night was scheduled for June 20, 2023.",
+          "response_time": 2.768,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer describes Jon's plans for the grand opening of his dance studio, focusing on the celebratory and positive atmosphere, which aligns with 'savor all the good vibes' from the gold answer.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What does Gina say to Jon about the grand opening?",
+          "expected_answer": "Let's live it up and make some great memories",
+          "ai_response": "Gina congratulates Jon on the grand opening by saying: \"Congrats, Jon! The studio looks amazing. You've put a lot of work into this and I'm so pumped for the launch tomorrow. Don't miss a beat!\"",
+          "response_time": 2.728,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer addresses the grand opening and Gina's positive remarks to Jon, which matches the topic of the gold answer, even though the wording is different and more detailed.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What is the general sentiment about the upcoming grand opening?",
+          "expected_answer": "excitement",
+          "ai_response": "The general sentiment about the upcoming grand opening of Jon's dance studio (scheduled for June 20, 2023) is very positive, excited, and supportive. Both Jon and Gina express enthusiasm and anticipation:\n\n- Jon says, \"Yeah! Let's make some awesome memories tomorrow at the grand opening!\" and \"Woohoo! Tomorrow's opening will be so much fun. Can't wait for it - and for you to be there!\" showing excitement and eagerness.\n- Gina responds with, \"Can't wait for tomorrow's grand opening!\" and congratulates Jon, saying, \"Congrats, Jon! The studio looks amazing. You've put a lot of work into this and I'm so pumped for the launch tomorrow. Don't miss a beat!\" indicating strong support and excitement.\n- Both mention looking forward to making memories and celebrating the hard work that went into preparing the studio.\n\nOverall, the sentiment is upbeat, supportive, and filled with anticipation for a successful and memorable event.",
+          "response_time": 4.146,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that the sentiment is excited and positive, matching the gold answer of 'excitement,' and provides supporting examples.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What did Gina make a limited edition line of?",
+          "expected_answer": "Hoodies",
+          "ai_response": "Gina made a limited edition line of hoodies. She created this line on June 14, 2023, to show off her style and creativity.",
+          "response_time": 4.689,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that Gina made a limited edition line of hoodies, matching the gold answer, with extra details that do not detract from correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "According to Gina, what makes Jon a perfect mentor and guide?",
+          "expected_answer": "His positivity and determination",
+          "ai_response": "According to Gina, Jon is a perfect mentor and guide because he is incredibly talented and passionate about dance, brings joy to others, and has positivity and determination. Gina specifically said on 23rd July 2023: \"You're definitely the perfect mentor & guide. Your positivity and determination will make your dance studio a hit!\" She also praised Jon for loving what he does and for helping others succeed, which she finds rewarding and inspiring.",
+          "response_time": 4.63,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes Gina's mention of Jon's positivity and determination, which matches the gold answer, and extra details do not detract from correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What plans does Jon have after receiving advice at the networking event?",
+          "expected_answer": "Sprucing up his business plan, tweaking his pitch to investors, and working on an online platform.",
+          "ai_response": "After receiving advice at the networking event (which Jon attended on June 20, 2023, and referenced before July 21, 2023), Jon made several plans:\n\n1. **Sprucing up the business plan and tweaking the pitch to investors** – Jon is revising and improving the business plan and investor pitch based on the advice received.\n2. **Working on an online platform to showcase the dance studio** – Jon is developing an online platform to highlight the studio’s offerings and attract investors.\n3. **Adapting and tweaking the business approach based on customer feedback** – Jon plans to remain flexible and responsive to feedback to improve the business.\n4. **Writing all plans down and using a whiteboard to keep track and stay on schedule** – Jon is organizing and tracking progress with written plans and a whiteboard.\n5. **Seeking help with content creation and social media management** – Jon is looking for assistance in these areas to better promote the studio.\n6. **Continuing to network and connect with potential investors** – Jon recognizes the value of networking and plans to keep building connections.\n7. **Inviting Gina to an upcoming event and collaborating with her** – Jon invited Gina to an event and is open to her help, especially with the online platform.\n\nIn summary, Jon’s plans after the event focus on refining the business plan and pitch, building an online presence, staying organized, seeking marketing help, and leveraging networking connections to grow the dance studio.",
+          "response_time": 4.861,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes all the key plans from the gold answer—sprucing up the business plan, tweaking the pitch, and working on an online platform—while also providing additional relevant details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "open_domain",
+          "category": 4,
+          "question": "What offer does Gina make to Jon regarding social media?",
+          "expected_answer": "Helping with making content and managing his social media accounts.",
+          "ai_response": "Gina offers to help Jon by creating content and managing his dance studio's social media accounts. Specifically:\n\n- In 2023, Gina tells Jon: \"I could help you with making content or even managing your accounts if you want.\"\n- Gina also offers to help Jon with his plan to create an online platform to showcase his studio and attract investors (July 2023).\n- Gina expresses willingness to help make Jon's studio shine and to collaborate on social media and content creation.\n\nSo, Gina's offer is to assist Jon with content creation and social media management for his dance studio.",
+          "response_time": 4.047,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer accurately states that Gina offers to help Jon with content creation and managing his social media accounts, which matches the gold answer, even though it provides additional details.",
+            "error": null
+          }
+        }
+      ]
+    },
+    "single_hop": {
+      "total": 11,
+      "evaluated_count": 11,
+      "correct_count": 11,
+      "accuracy_percentage": 100,
+      "responses": [
+        {
+          "conversation_id": "conv-30",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What do Jon and Gina both have in common?",
+          "expected_answer": "They lost their jobs and decided to start their own businesses.",
+          "ai_response": "Jon and Gina both have the following in common:\n\n1. **Passion for Dance**: Both Jon and Gina are passionate about dance. Jon runs a dance studio, teaches, and finds fulfillment in dancing and helping students. Gina has expressed that dance has special meaning to her, enjoys dancing, and values memories of dance lessons with friends (as of 2023-04-09).\n\n2. **Entrepreneurship**: Both have started their own businesses after losing their jobs. Jon is working on opening and running a dance studio, while Gina opened an online clothing store after losing her job at Door Dash (mentioned multiple times in 2023).\n\n3. **Overcoming Job Loss**: Both Jon and Gina lost their jobs (Jon as a banker on January 19, 2023; Gina at Door Dash in July 2023) and used that as motivation to pursue their passions and start their own ventures.\n\n4. **Supportive Friendship and Collaboration**: They support each other’s journeys, offer encouragement, and are collaborating on a dance-related project as of July 2023.\n\n5. **Interest in Fashion**: Jon is interested in fashion trends and unique pieces (as of 2023-03-16), and Gina owns and operates an online clothing store, sourcing and promoting unique fashion pieces.\n\n6. **Taking Risks and Facing Challenges**: Both have taken risks to follow their dreams, found the journey tough but rewarding, and encourage each other to keep going.\n\nIn summary, Jon and Gina share a passion for dance, entrepreneurial spirit, resilience after job loss, mutual support, an interest in fashion, and a willingness to take risks to pursue their dreams.",
+          "response_time": 10.733,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes the key information that Jon and Gina both lost their jobs and started their own businesses, which matches the gold answer, even though it provides additional details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What Jon thinks the ideal dance studio should look like?",
+          "expected_answer": "By the water, with natural light and Marley flooring",
+          "ai_response": "Jon’s vision for the ideal dance studio is detailed throughout the conversation and memories:\n\n- **Natural Light:** Jon specifically mentioned finding a place with great natural light for the studio (January 28, 2023).\n- **By the Water:** Jon shared an image and described his ideal dance studio as being \"by the water\" and showed a room with a view of the ocean and yoga mats (2023).\n- **Spaciousness:** Jon looked at different places, picturing how the space would look, and shared images of spacious rooms with large windows and dance mirrors.\n- **Marley Flooring:** Jon wants Marley flooring, which he describes as grippy but still allows movement, tough, and easy to keep clean (January 29, 2023).\n- **Supportive and Creative Environment:** Jon wants the studio to be a place of support and encouragement for all dancers, where people can express themselves through dance and feel welcome regardless of age or background.\n- **Aesthetic and Functional Design:** Jon values designing the studio space, selecting furniture, decor, and lighting to create a creative and inspiring atmosphere (as of January 31, 2023).\n\n**Summary:**  \nJon’s ideal dance studio is a spacious, well-lit room (preferably with natural light and possibly an ocean view), equipped with Marley flooring, mirrors, and designed to be both aesthetically pleasing and functional. It should foster a supportive, creative environment for dancers of all ages and backgrounds.",
+          "response_time": 4.985,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes all key elements from the gold answer (by the water, natural light, Marley flooring) and expands with additional details, so it is correct.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "Which city have both Jean and John visited?",
+          "expected_answer": "Rome",
+          "ai_response": "Based on the provided context:\n\n- Jon (John) visited Paris on January 28, 2023, and took a short trip to Rome on June 12, 2023.\n- Gina has never visited Paris as of 2023, but has visited Rome once as of 2023.\n\n**Therefore, the city that both Gina and Jon have visited is Rome.**",
+          "response_time": 3.026,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies Rome as the city both have visited, matching the gold answer, despite extra context and a minor name variation.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "Why did Gina decide to start her own clothing store?",
+          "expected_answer": "She always loved fashion trends and finding unique pieces and she lost her job so decided it was time to start her own business.",
+          "ai_response": "Gina decided to start her own clothing store because she lost her job at Door Dash (mentioned January 2023) and wanted to become her own boss by doing something she loves. She is passionate about both dance and fashion, and starting the store allowed her to combine these passions, show her creativity, and share her love with others. Gina had been dreaming of opening an online clothing store before 2023, and despite the risks and challenges, she found the process both scary and rewarding.",
+          "response_time": 3.417,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes both her passion for fashion and the fact that she lost her job, which are the key reasons given in the gold answer, along with some extra detail.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "Do Jon and Gina start businesses out of what they love?",
+          "expected_answer": "Yes",
+          "ai_response": "Yes, both Jon and Gina started businesses out of what they love.\n\n- **Jon**: After losing his job (as a banker on January 19, 2023, and later at Door Dash), Jon decided to follow his passion for dance by opening a dance studio. He has been passionate about dancing since childhood, finds joy and fulfillment in it, and uses it as stress relief. He mentions, \"I'm turning my loves of dance into a business,\" and is dedicated to creating a space for dancers of all ages and backgrounds.\n\n- **Gina**: After losing her job at Door Dash in July 2023, Gina started her own online clothing store. She describes fashion as fueling her creativity and says, \"Being my own boss and doing something I love is awesome.\" She is passionate about finding new trends and building her store around her love for fashion.\n\n**Summary:** Both Jon and Gina started their businesses based on their personal passions—Jon with dance and Gina with fashion.",
+          "response_time": 4.787,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer clearly states that both Jon and Gina started businesses out of what they love, matching the gold answer and providing supporting details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "How did Gina promote her clothes store?",
+          "expected_answer": "worked with an artist to make unique fashion pieces, made limited-edition sweatshirts, got some new offers and promotions for online store, developed a video presentation showing how to style her pieces",
+          "ai_response": "Gina promoted her clothes store through several strategies:\n\n1. **Working with Fashion Bloggers and Influencers**: Gina planned to collaborate with fashion bloggers and influencers in the months following April 3, 2023, to get more attention for her store.\n\n2. **Advertising Campaigns**: She launched ad campaigns to reach more people and grow her business (mentioned July 2023).\n\n3. **Offering Promotions and New Deals**: Gina ran offers and promotions to attract new customers (mentioned April 3, 2023).\n\n4. **Networking and Research**: She did a lot of research and networking to source trendy pieces and expand her product range (mentioned July 21, 2023).\n\n5. **Teaming Up with Local Artists**: Gina collaborated with a local artist to create unique designs for her store (mentioned June 2023).\n\n6. **Building a New Website**: In July 2023, Gina built a new website to make it easier for customers to place orders.\n\n7. **Keeping Up with Fashion Trends**: She kept up with fashion trends to offer the best and most unique pieces to her customers.\n\n8. **Creating a Strong Brand Image**: Gina focused on building relationships and creating a strong brand image for her store.\n\nThese combined efforts helped Gina promote and grow her clothing store.",
+          "response_time": 5.168,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer covers the main promotional strategies from the gold answer, including collaborating with artists, offering promotions, and creating unique pieces, and adds extra detail, which is acceptable.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "Which events has Jon participated in to promote his business venture?",
+          "expected_answer": "fair, networking events, dance competition",
+          "ai_response": "Jon has participated in the following events to promote his business venture:\n\n1. **Fair to Showcase Studio (April 24, 2023)**  \n   - Jon attended a fair to show off the dance studio, met possible leads, and received advice from investors.\n\n2. **Networking Events (including June 20, 2023)**  \n   - Jon attended multiple networking events to make connections, meet investors, and get business advice. A specific event was attended on June 20, 2023.\n\n3. **Dance Competition Hosting (May 2023)**  \n   - Jon hosted a dance competition in May 2023 to showcase local talent and bring more attention to the studio.\n\n4. **Crowded Networking Event (before July 21, 2023)**  \n   - Jon was photographed at a crowded networking event, further indicating participation in such events for business promotion.\n\nThese events were aimed at increasing awareness, networking with potential investors, and promoting Jon’s dance studio.",
+          "response_time": 4.529,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer lists fair, networking events, and dance competition, which matches all the key events in the gold answer, with additional details that do not detract from correctness.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "What does Jon's dance studio offer?",
+          "expected_answer": "one-on-one metoring and training to dancers,  workshops and classes to local schools and centers",
+          "ai_response": "Jon's dance studio offers the following:\n\n- **Dance Classes and Workshops:** Jon provides classes and workshops for dancers of all ages and backgrounds, including young dancers and local schools/centers (mentioned July 21, 2023; July 23, 2023).\n- **Various Dance Styles:** The studio covers a range of dance styles, including contemporary and hip-hop (mentioned January 20, 2023; July 23, 2023).\n- **Performance Opportunities:** The studio organizes and participates in performances, such as group stage shows and festivals (mentioned January 20, 2023; April 25, 2023).\n- **Dance Competitions:** Jon hosts dance competitions to showcase local talent and bring attention to the studio (mentioned July 21, 2023).\n- **Supportive and Creative Environment:** The studio is designed to be a place of support, encouragement, and creative expression for all dancers (mentioned July 21, 2023; July 23, 2023).\n- **Mentoring and One-on-One Training:** Jon offers mentoring and one-on-one training for aspiring dancers (mentioned June 13, 2023).\n- **Community Collaboration:** The studio collaborates with other schools and local dance communities for events and performances (mentioned July 23, 2023).\n- **Social Media and Online Platform:** Jon is developing an online platform to showcase studio activities and expanding the studio’s social media presence (mentioned July 21, 2023).\n- **Special Events:** The studio hosts creative and fun dance events, including nights of performances and judging (mentioned July 23, 2023).\n\nIn summary, Jon’s dance studio offers a wide range of classes, workshops, competitions, mentoring, and performance opportunities in a supportive and creative environment, with a focus on community engagement and online presence.",
+          "response_time": 7.296,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer includes one-on-one mentoring, training, workshops, and classes to local schools and centers, which matches the key offerings in the gold answer, even though it provides additional details.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "Did Jon and Gina both participate in dance competitions?",
+          "expected_answer": "Yes",
+          "ai_response": "Yes, both Jon and Gina participated in dance competitions.\n\n**Details:**\n\n- **Jon:** \n  - Performed in a dance competition in 2022.\n  - His dance crew won first place in a local competition around 2022.\n  - Hosted and participated in dance competitions and shows, including preparing for a competition in March 2023.\n  - Has a history of competing and performing on stage.\n\n- **Gina:** \n  - Competed in several dance competitions and shows.\n  - Her favorite memory is winning first place at a regional dance competition at age fifteen.\n  - Shared images of her trophies from dance contests.\n\n**Conclusion:**  \nBoth Jon and Gina have actively participated in dance competitions, with Jon competing and winning with his crew and Gina winning regional competitions and collecting trophies.",
+          "response_time": 3.557,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer confirms that both Jon and Gina participated in dance competitions, matching the gold answer and covering the key topic.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "Which cities has Jon visited?",
+          "expected_answer": "Paris, Rome",
+          "ai_response": "Jon has visited Rome (took a short trip there on June 12, 2023). There is no mention of Jon visiting any other specific cities in the provided context.",
+          "response_time": 2.583,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly identifies that Jon has visited Rome, which is one of the cities in the gold answer, and partial matches are considered correct.",
+            "error": null
+          }
+        },
+        {
+          "conversation_id": "conv-30",
+          "question_type": "single_hop",
+          "category": 1,
+          "question": "How long did it take for Jon to open his studio?",
+          "expected_answer": "six months",
+          "ai_response": "Based on the provided context:\n\n- Jon was searching for the ideal spot for the dance studio and actively preparing for it as early as January 2023.\n- Jon mentioned still working on opening the studio on June 19, 2023.\n- The official opening night of Jon's dance studio was scheduled for June 20, 2023.\n\n**Conclusion:**  \nIt took Jon approximately 5 to 6 months to open the studio, starting from the search and preparation phase in January 2023 to the official opening on June 20, 2023.",
+          "response_time": 3.411,
+          "evaluation": {
+            "is_correct": true,
+            "reasoning": "The generated answer correctly states that it took Jon approximately 5 to 6 months to open his studio, which matches the gold answer of six months.",
+            "error": null
+          }
+        }
+      ]
+    }
+  }
+}
